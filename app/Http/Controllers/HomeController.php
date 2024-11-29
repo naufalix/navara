@@ -91,8 +91,8 @@ class HomeController extends Controller
         ];
         
         return view('home',[
-            "cities" => $cities,
-            // "cities" => City::orderBy('id', 'ASC')->get(),
+            // "cities" => $cities,
+            "cities" => City::orderBy('id', 'ASC')->get(),
             // "tourisms" => Tourism::orderBy('name', 'ASC')->get(),
             // "testimonials" => Testimonial::orderBy('updated_at', 'DESC')->get(),
         ]);

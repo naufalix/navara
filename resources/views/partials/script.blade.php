@@ -131,7 +131,7 @@
   
   // Set leaflet marker
   @foreach ($cities as $c)
-  var {{ $c['name'] }} = L.marker([{{ $c['latitude'] }}, {{ $c['longitude'] }}]).addTo(map).bindPopup(
+  var {{ str_replace(' ', '_', $c['name']) }} = L.marker([{{ $c['latitude'] }}, {{ $c['longitude'] }}]).addTo(map).bindPopup(
     "<b>{{ $c['name'] }}</b><br><br><button class='btn btn-sm btn-primary' onclick='pergi({{$loop->iteration}})'>Pergi</button>"
   );
   @endforeach

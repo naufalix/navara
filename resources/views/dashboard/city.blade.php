@@ -49,8 +49,8 @@
               </td>
               <td>
                 <span class="badge badge-primary" title="Ensiklopedia" >{{ $c->encyclopedia->count() }}</span>
-                <span class="badge badge-primary" title="Agenda Budaya" >{{ $c->cultural->count() }}</span>
-                <span class="badge badge-primary" title="Destinasi Wisata" >{{ $c->tourism->count() }}</span>
+                {{-- <span class="badge badge-primary" title="Agenda Budaya" >{{ $c->cultural->count() }}</span>
+                <span class="badge badge-primary" title="Destinasi Wisata" >{{ $c->tourism->count() }}</span> --}}
               </td>
               <td>{{date_format($updated,"d/m/Y H:i")}}</td>
               <td>
