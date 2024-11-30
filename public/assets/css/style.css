@@ -4,8 +4,15 @@
 .btn{
   border-radius: 50px !important;
 }
+.btn-secodary:focus{
+  background-color:red;
+}
 .modal-header button{
   background-color: transparent;
+}
+.modal-backdrop{
+  width: 105vw !important;
+  height: 105vh !important;
 }
 .sea-bg {
   background-image: url('assets/img/bg-about.jpg');
@@ -71,9 +78,6 @@ section{
   font-size: 15px;
   margin: 0px 4px;
 }
-.navbar-toggler {
-  display: none;
-}
 @media (max-width: 992px) {
   .bg-nav.scrolled .navbar-toggler {
     display: block;
@@ -101,6 +105,11 @@ section{
 }
 #hero h1{
   font-size: 60px;
+}
+@media (max-width: 992px) {
+  #hero h1{
+    font-size: 32px;
+  }
 }
 #hero .ship {
   animation: ship 10s ease-in-out infinite; /* Animasi looping */
@@ -227,98 +236,57 @@ section{
   }
 }
 #maps .cloud1{
-  background-image: url('/assets/img/1.png'); 
-  background-size: 300px;
+  background-image: url('/assets/img/ikan1.png'); 
+  background-size: 60px;
   animation: cloud1 40s linear infinite;
 }
 #maps .cloud1x{
-  background-image: url('/assets/img/1.png'); 
-  background-size: 250px;
+  background-image: url('/assets/img/ikan2.png'); 
+  background-size: 50px;
   animation: cloud1x 50s linear infinite;
 }
 #maps .cloud2{
-  background-image: url('/assets/img/2.png'); 
-  background-size: 300px;
+  background-image: url('/assets/img/ikan1.png'); 
+  background-size: 60px;
   animation: cloud2 45s linear infinite;
 }
 #maps .cloud2x{
-  background-image: url('/assets/img/2.png'); 
-  background-size: 400px;
+  background-image: url('/assets/img/ikan2.png'); 
+  background-size: 60px;
   animation: cloud2x 60s linear infinite;
 }
 #maps .cloud3{
-  background-image: url('/assets/img/3.png'); 
-  background-size: 500px;
+  background-image: url('/assets/img/ikan1.png'); 
+  background-size: 55px;
   animation: cloud3 55s linear infinite;
 }
-@keyframes cloud1 { 0% {background-position: 110% 0;} 100% {background-position: -100% 0;} }
-@keyframes cloud1x { 0% {background-position: 110% 18%;} 100% {background-position: -100% 18%;} }
-@keyframes cloud2 { 0% {background-position: 110% 50%;} 100% {background-position: -100% 50%;} }
+@keyframes cloud1 { 0% {background-position: 0% 0;} 100% {background-position: 110% 0;} }
+@keyframes cloud1x { 0% {background-position: 110% 18%;} 100% {background-position: -10% 18%;} }
+@keyframes cloud2 { 0% {background-position: 0% 50%;} 100% {background-position: 110% 50%;} }
 @keyframes cloud2x { 0% {background-position: 110% 60%;} 100% {background-position: -100% 60%;} }
-@keyframes cloud3 { 0% {background-position: 110% 110%;} 100% {background-position: -100% 110%;} }
+@keyframes cloud3 { 0% {background-position: 0% 90%;} 100% {background-position: 110% 90%;} }
 
 /* Ensiklopedia */
-#city .img-thumb{
-  position: relative;
-  transition: transform 0.5s ease-in-out;
-}
-#city .img-thumb:hover {
-  transform: scale(1.1); /* Membesarkan gambar saat di-hover */
-}
-#city .img-thumb:hover .custom-bg.bg-1{
-  width: 25% !important;
-}
-#city .img-thumb:hover .bg-2{
-  width: 20% !important;
-  left: 12% !important;
-}
-#city .img-thumb img{
-  width: 100%; object-fit: cover;
-}
-#city .custom-bg{
-  position: absolute;
-  height: -webkit-fill-available;
-  transition: all ease-in-out 0.4s;
-}
-.tag {
+#city .card{
+  height: 95%;
+  min-height: 150px;
   cursor: pointer;
-  align-content: center;
+  transition: all ease-in-out 0.3s;
+}
+#city .card:hover{
+  margin-top: -20px;
+  transform: rotate(-5deg);
+}
+#city .img-overlay{
   width: 100%;
-  height: 100%;
-  float: left;
   position: absolute;
-  left: 0px;
-  top: 0px;
-  z-index: 1000;
-  padding: 12px;
-  color: #FFFFFF;
-  font-weight: bold;
+  bottom: 85px;
 }
-@media (max-width: 600px) {
-  .tag {
-    font-size: 12px !important;
-    line-height: normal;
-    padding: 8px !important;
-  }
-  #agenda .d-flex{
-    zoom: 80%;
-  }
-}
-#agenda{
-  background-color: #1B263A;
-}
-#agenda img{
-  max-width: 50px;
+#city .img-thumb{
+  aspect-ratio: 4/5;
   object-fit: cover;
-  aspect-ratio: 1/1;
 }
-#agenda .card{
-  transition: transform 0.5s ease-in-out;
-}
-#agenda .card:hover{
-  filter: drop-shadow(2px 4px 6px #11111190);
-  transform: scale(1.05);
-}
+
 
 /* Virtual */
 #virtual{
@@ -461,9 +429,9 @@ section{
   font-size: 14px;
 }
 
-*{
+/* *{
 	cursor: url(/assets/img/cursor.png),auto !important;
-}
+} */
 /* Scrollbar */
 ::-webkit-scrollbar
 {width: 8px;height: 8px;}

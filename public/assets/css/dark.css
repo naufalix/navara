@@ -35,9 +35,9 @@
 }
 
 /* Statistic */
-.dark #statistic{
+/* .dark #statistic{
   background: linear-gradient(to bottom right, #021526, #273748) !important;
-}
+} */
 .dark #statistic .card{
   border: 1px solid #2E4057;
   background-color: #1B263A;
@@ -51,9 +51,20 @@
   color:#778DA9;
 }
 
+/* About */
+.dark #about .card, .dark #about .rounded-7{
+  background-color: #1B263A99 !important;
+}
+.dark #about .card h2{
+  color:#FFFFFF !important;
+}
+.dark #about .card p, .dark #about .card span{
+  color:#778DA9;
+}
+
 /* Maps */
 .dark #maps {
-  background: linear-gradient(to bottom right, #273748, #021526) !important;
+  background: linear-gradient(to bottom, #141B35, #021526) !important;
 }
 .dark #maps .card {
   border: 1px solid #2E4057;
