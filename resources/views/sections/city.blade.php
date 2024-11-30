@@ -41,7 +41,7 @@
                 </div>
               @else
                 <div class="col-md-3 mt-4" data-mdb-ripple-init="" data-mdb-modal-init="" data-mdb-target="#youtubeplayer" onclick="setyt('{{ $e->source }}')">
-                  <div class="card mb-4" style="background-image: url('assets/img/encyclopedia/{{ $e->image }}'); background-size: cover;">
+                  <div class="card mb-4" style="background-image: url('assets/img/encyclopedia/{{ $e->image }}'); background-size: cover; background-position: center;">
                     <div class="d-flex justify-content-center align-items-center h-100 rounded-3" style="background-color: #00000090;">
                       <div class="text-center">
                         <i class="fa fa-youtube-play fs-1 text-danger"></i>
