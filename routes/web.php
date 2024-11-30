@@ -16,6 +16,8 @@ Route::get('/login', [AuthController::class, 'index'])->name('login');
 Route::post('/login', [AuthController::class, 'login']);
 Route::get('/logout', [AuthController::class, 'logout']);
 
+//https://kompaspedia.kompas.id/baca/paparan-topik/kedaulatan-maritim-indonesia-sejarah-dan-potretnya
+
 // ADMIN PAGE
 Route::group(['prefix'=> 'dashboard','middleware'=>['auth']], function(){
   Route::get('/', [DashHome::class, 'index']);

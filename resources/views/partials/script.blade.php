@@ -1,14 +1,14 @@
 <!-- Vendor JS Files -->
-<script src="/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-<script src="/assets/vendor/mdb/js/mdb.umd.min.js"></script>
-<script src="/assets/vendor/leaflet/leaflet.js"></script>
-<script src="/assets/vendor/leaflet/leaflet-providers.js"></script>
-<script src="/assets/vendor/select2/select2.min.js"></script>
-<script src="/assets/vendor/swiper/swiper-bundle.min.js"></script>
-<script src="/assets/vendor/pannellum/pannellum.js"></script>
+<script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="assets/vendor/mdb/js/mdb.umd.min.js"></script>
+<script src="assets/vendor/leaflet/leaflet.js"></script>
+<script src="assets/vendor/leaflet/leaflet-providers.js"></script>
+<script src="assets/vendor/select2/select2.min.js"></script>
+<script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+<script src="assets/vendor/pannellum/pannellum.js"></script>
 
 <!-- Main JS File -->
-<script src="/assets/js/script.js"></script>
+<script src="assets/js/script.js"></script>
 
 <script>
   
@@ -131,8 +131,8 @@
   
   // Set leaflet marker
   @foreach ($cities as $c)
-  var {{ str_replace(' ', '_', $c['name']) }} = L.marker([{{ $c['latitude'] }}, {{ $c['longitude'] }}]).addTo(map).bindPopup(
-    "<b>{{ $c['name'] }}</b><br><br><button class='btn btn-sm btn-primary' onclick='pergi({{$loop->iteration}})'>Pergi</button>"
+  var {{ str_replace(' ', '_', $c->name) }} = L.marker([{{ $c->latitude }}, {{ $c->longitude }}]).addTo(map).bindPopup(
+    "<b>{{ $c->name }}</b><br><br><button class='btn btn-sm btn-info' onclick='pergi({{$loop->iteration}})'>Pergi</button>"
   );
   @endforeach
 
@@ -141,7 +141,18 @@
     var top = $("#city").position().top;
     $('html').scrollTop(top);
     swiper.slideTo(id-1);
+    $("#city .btn-city").removeClass("btn-info").addClass("btn-outline-info");
+    $(".c"+id).removeClass("btn-outline-info").addClass("btn-info");
   }
+  function selectCity(id) {
+    swiper.slideTo(id - 1);
+    $("#city .btn-city").removeClass("btn-info").addClass("btn-outline-info");
+    $(".c"+id).removeClass("btn-outline-info").addClass("btn-info");
+  }
+
+
+  
+
 
   // Initialize Select2
   $('#searchcity').select2();
@@ -239,4 +250,12 @@
     });
     $('.gmaps').attr('href', maps);
   }
+
+  // Function set youtube video
+  function setyt(url){
+    $('#youtubeplayer iframe').attr('src', url);
+  }
+  $('#youtubeplayer').on('hidden.bs.modal', function () {
+    $('#youtubeplayer iframe').attr('src', '');
+  });
 </script>

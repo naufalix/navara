@@ -7,8 +7,8 @@
         
         <div class="col-md-4 mx-auto ms-md-0 mb-4">
           <!-- Content -->
-          <img class="mb-2" src="/assets/img/logo-new.png" alt="" width="100">
-          <p class="h3">Arunika Nusantara</p>
+          <img class="mb-2" src="assets/img/logo.png" alt="" width="100">
+          <p class="h3">Hari Nusantara 2024</p>
           <p lang-id="ft1">Platform interaktif untuk menjelajahi keindahan alam, budaya, dan adat Nusantara melalui peta interaktif, ensiklopedia budaya, serta tur virtual.</p>
         </div>
         

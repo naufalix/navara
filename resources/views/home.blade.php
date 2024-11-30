@@ -7,8 +7,8 @@
     @include('sections.about')
   </div>
   @include('sections.map')
+  @include('sections.city')
   {{-- @include('sections.quotes') --}}
-  {{-- @include('sections.city') --}}
   {{-- @include('sections.virtual') --}}
   {{-- @include('sections.testimonial') --}}
 @endsection

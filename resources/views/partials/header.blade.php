@@ -3,7 +3,7 @@
     <div class="container">
       {{-- <a class="navbar-brand" href="#">Arunika Nusantara</a> --}}
       <a class="navbar-brand" href="#">
-        <img src="/assets/img/logo-new.png" alt="Arunika Nusantara Logo" style="height: 40px;">
+        <img src="/assets/img/logo.png" alt="Arunika Nusantara Logo" style="height: 40px;">
       </a>
     
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -15,7 +15,7 @@
           <!-- Dropdown -->
           <li><a class="nav-link" lang-id="nv1" href="#hero">Beranda</a></li>
           <li><a class="nav-link" lang-id="nv2" href="#maps">Peta interaktif</a></li>
-          <li><a class="nav-link" lang-id="nv3" href="#city">Ensiklopedia Budaya</a></li>
+          <li><a class="nav-link" lang-id="nv3" href="#city">Budaya & Tradisi</a></li>
           <li><a class="nav-link" lang-id="nv4" href="#virtual">Tur Virtual</a></li>
           <li><a class="nav-link" lang-id="nv5" href="#testimonial">Ulasan</a></li>
           

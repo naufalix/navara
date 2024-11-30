@@ -1,12 +1,8 @@
-<style>
- 
-</style>
-
 <section id="hero" class="hero pb-0">
   
   <div class="container p-4">
     <div class="row pt-5">
-      <div class="col-12 col-md-6 my-auto py-5">
+      <div class="col-12 col-md-6 my-auto py-5 text-md-start text-center">
         <h1 class="">Hari Nusantara 2024</h1>
         <p class="" lang-id="he1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam ea aut expedita ad inventore laboriosam, reprehenderit delectus animi sapiente doloremque aliquid est earum voluptatem perspiciatis quidem nihil hic iusto voluptatibus!</p>
         <a class="btn btn-info shadow-0 rounded-4" href="#maps" lang-id="he2">Mulai Eksplorasi <i class="fa fa-sign-out ms-2"></i></a>
