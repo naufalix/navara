@@ -13,11 +13,11 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ms-auto">
           <!-- Dropdown -->
-          <li><a class="nav-link" lang-id="nv1" href="#hero">Beranda</a></li>
-          <li><a class="nav-link" lang-id="nv2" href="#maps">Peta interaktif</a></li>
-          <li><a class="nav-link" lang-id="nv3" href="#city">Budaya & Tradisi</a></li>
-          <li><a class="nav-link" lang-id="nv4" href="#virtual">Tur Virtual</a></li>
-          <li><a class="nav-link" lang-id="nv5" href="#testimonial">Ulasan</a></li>
+          <li><a class="nav-link" lang-id="nv1" href="index.html#hero">Beranda</a></li>
+          <li><a class="nav-link" lang-id="nv2" href="index.html#maps">Peta interaktif</a></li>
+          <li><a class="nav-link" lang-id="nv3" href="index.html#city">Budaya & Tradisi</a></li>
+          <li><a class="nav-link" lang-id="nv4" href="index.html#virtual">Galeri</a></li>
+          <li><a class="nav-link" lang-id="nv5" href="index.html#testimonial">Ulasan</a></li>
           
           <li id="day" class="theme">
             <button class="nav-link" onclick="changetheme('nyx')"><i class="bi bi-sun"></i></button>
