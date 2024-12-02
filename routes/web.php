@@ -10,13 +10,14 @@ use App\Http\Controllers\Auth\AuthController;
 
 // HOMEPAGE
 Route::get('/', [HomeController::class, 'index']);
+Route::get('/index.html', [HomeController::class, 'index']);
+Route::get('/galeri.html', [HomeController::class, 'gallery']);
+Route::get('/sejarah.html', [HomeController::class, 'history']);
 
 // ADMIN AUTH
 Route::get('/login', [AuthController::class, 'index'])->name('login');
 Route::post('/login', [AuthController::class, 'login']);
 Route::get('/logout', [AuthController::class, 'logout']);
-
-//https://kompaspedia.kompas.id/baca/paparan-topik/kedaulatan-maritim-indonesia-sejarah-dan-potretnya
 
 // ADMIN PAGE
 Route::group(['prefix'=> 'dashboard','middleware'=>['auth']], function(){

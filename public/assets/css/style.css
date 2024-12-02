@@ -429,6 +429,76 @@ section{
   font-size: 14px;
 }
 
+/* History Nusantara */
+#nusantara .horizontal-timeline .items {
+  border-top: 3px solid #e9ecef;
+}
+#nusantara .horizontal-timeline .items .items-list {
+  display: block;
+  position: relative;
+  text-align: center;
+  padding-top: 70px;
+  margin-right: 0;
+}
+#nusantara .horizontal-timeline .items .items-list:before {
+  content: "";
+  position: absolute;
+  height: 36px;
+  border-right: 2px dashed #dee2e6;
+  top: 0;
+}
+#nusantara .horizontal-timeline .items .items-list .event-date {
+  position: absolute;
+  top: 36px;
+  left: 0;
+  right: 0;
+  width: 75px;
+  margin: 0 auto;
+  font-size: 0.9rem;
+  padding-top: 8px;
+}
+@media (min-width: 1140px) {
+  #nusantara .horizontal-timeline .items .items-list {
+    display: inline-block;
+    width: 24%;
+    padding-top: 45px;
+  }
+  #nusantara .horizontal-timeline .items .items-list .event-date {
+    top: -40px;
+  }
+}
+
+
+/* History Marines */
+#maritim {
+  background: linear-gradient(to bottom, #FFFFFF, #E2EAF7);
+}
+#maritim .timeline-with-icons {
+  border-left: 1px solid hsl(0, 0%, 90%);
+  position: relative;
+  list-style: none;
+}
+#maritim .timeline-with-icons .timeline-item {
+  position: relative;
+}
+#maritim .timeline-with-icons .timeline-item:after {
+  position: absolute;
+  display: block;
+  top: 0;
+}
+#maritim .timeline-with-icons .timeline-icon {
+  position: absolute;
+  left: -48px;
+  background-color: #54B4D340;
+  border-radius: 50%;
+  height: 31px;
+  width: 31px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
 /* *{
 	cursor: url(/assets/img/cursor.png),auto !important;
 } */

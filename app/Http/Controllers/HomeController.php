@@ -10,92 +10,56 @@ class HomeController extends Controller
 {
 
     public function index(){
-        $cities = [
-            [
-                "id" => 1,
-                "name" => "Yogyakarta",
-                "description" => "Yogyakarta adalah kota budaya di Indonesia yang kaya akan sejarah, seni, dan tradisi Jawa. Terkenal dengan Keraton, Malioboro dan candi-candi lainnya.",
-                "image" => "1731756957.webp",
-                "founded_at" => "13 Maret 1755",
-                "population" => "3.185,80 km²",
-                "area" => "3.710.229 jiwa",
-                "latitude" => "-7.7956",
-                "longitude" => "110.3695"
-            ],
-            [
-                "id" => 2,
-                "name" => "Bali",
-                "description" => "Bali adalah pulau di Indonesia terkenal dengan pantai indah, budaya kaya, seni, dan pariwisata yang memikat wisatawan dari seluruh dunia.",
-                "image" => "1731759194.webp",
-                "founded_at" => "14 Agustus 1958",
-                "population" => "4.361.106 jiwa",
-                "area" => "5.780,06 km²",
-                "latitude" => "-8.650000",
-                "longitude" => "115.216667"
-            ],
-            [
-                "id" => 3,
-                "name" => "Bandung",
-                "description" => "Bandung adalah ibu kota Jawa Barat, terkenal dengan suhu sejuk, pemandangan alam indah, kuliner khas, serta kekayaan budaya. Kota ini juga menjadi pusat pendidikan dan kreativitas di Indonesia.",
-                "image" => "1731759570.webp",
-                "founded_at" => "25 September 1810",
-                "population" => "2.569.107 jiwa",
-                "area" => "167,31 km²",
-                "latitude" => "-6.9175",
-                "longitude" => "107.6191"
-            ],
-            [
-                "id" => 4,
-                "name" => "Palembang",
-                "description" => "Palembang adalah ibu kota Provinsi Sumatra Selatan yang dikenal sebagai \"Venesia dari Timur\" dan telah menjadi pusat wisata air, tuan rumah SEA Games 2011, serta Asian Games 2018.",
-                "image" => "1731759738.webp",
-                "founded_at" => "17 Juni 683",
-                "population" => "1.781.672 jiwa",
-                "area" => "400,61 km²",
-                "latitude" => "-2.9909",
-                "longitude" => "104.7563"
-            ],
-            [
-                "id" => 5,
-                "name" => "Malang",
-                "description" => "Kota Malang merupakan kota terbesar kedua di Jawa Timur setelah Surabaya. Bersama dengan Kabupaten Malang dan Kota Batu, Kota Malang merupakan bagian dari kesatuan wilayah yang dikenal dengan Malang Raya. Kota Malang memiliki luas 110,06 Km².",
-                "image" => "1731834102.webp",
-                "founded_at" => "14 Agustus 1950",
-                "population" => "874.660 jiwa",
-                "area" => "110,06 km²",
-                "latitude" => "-7.983908",
-                "longitude" => "112.621391"
-            ],
-            [
-                "id" => 6,
-                "name" => "Makassar",
-                "description" => "Makassar adalah ibu kota provinsi Sulawesi Selatan, Indonesia. Sebelumnya, kota Makassar lebih dulu daripada yang sejak 1971 hingga 1999 sebagai Ujung Pandang yang kemudian dikembalikan nama Makassar untuk menghormati tuan rumah Makassar Asli dan merupakan kota terbesar di wilayah Indonesia Timur dan pusat kota terbesar ketiga di Indonesia dari jumlah penduduk setelah Jakarta, Surabaya, Makassar.",
-                "image" => "1731895615.webp",
-                "founded_at" => "1906",
-                "population" => "1.474.000 jiwa",
-                "area" => "175,8 km²",
-                "latitude" => "-5.135399",
-                "longitude" => "119.423790"
-            ],
-            [
-                "id" => 7,
-                "name" => "Bengkulu",
-                "description" => "Kota Bengkulu adalah sebuah kota sekaligus menjadi ibu kota provinsi di Provinsi Bengkulu, Indonesia. Kota ini merupakan kota terbesar kedua di pantai barat Pulau Sumatra, setelah Kota Padang.",
-                "image" => "1731895935.webp",
-                "founded_at" => "1967",
-                "population" => "391.117 jiwa",
-                "area" => "151,70 km²",
-                "latitude" => "-3.788892",
-                "longitude" => "102.266579"
-            ]
-        ];
+			return view('home',[
+				"cities" => City::orderBy('id', 'ASC')->get(),
+				"title" => "Navara Nusantara",
+				// "tourisms" => Tourism::orderBy('name', 'ASC')->get(),
+				// "testimonials" => Testimonial::orderBy('updated_at', 'DESC')->get(),
+			]);
+    }
+
+    public function history(){
         
-        return view('home',[
-            // "cities" => $cities,
-            "cities" => City::orderBy('id', 'ASC')->get(),
-            // "tourisms" => Tourism::orderBy('name', 'ASC')->get(),
-            // "testimonials" => Testimonial::orderBy('updated_at', 'DESC')->get(),
-        ]);
+			$marines = [
+				[
+					'title' => 'Sejarah Penerapan di Indonesia',
+					'icon' => 'fa fa-history',
+					'year' => '1945',
+					'body' => 'Ketika Soekarno dan Hatta atas nama bangsa Indonesia memproklamasikan kemerdekaan Indonesia tanggal 17 Agustus 1945, wilayah nengara Indonesia tidak seperti yang kita kenal saat ini. Berdasarkan <a class="text-info fw-bold" href="https://kompaspedia.kompas.id/baca/paparan-topik/sidang-bpupki-dinamika-penentuan-bentuk-dan-wilayah-indonesia-merdeka" target="_blank">Sidang BPUPKI 11 Juli 1945</a>, diputuskan bahwa yang masuk dalam Indonesia Merdeka adalah wilayah Hindia Belanda ditambah dengan Malaka, Borneo Utara, Papua, Timor dan kepulauan sekelilingnya.',
+				],
+				[
+					'title' => 'Deklarasi Djuanda',
+					'icon' => 'fa fa-flag',
+					'year' => '1957',
+					'body' => 'Pada tanggal 13 Desember 1957, Perdana Menteri Ir. Djuanda Kartawijaya mendeklarasikan “Pengumuman Pemerintah mengenai Perairan Negara Republik Indonesia” yang kelak dikenal sebagai “Deklarasi Djuanda”. Deklarasi itu menyatakan bahwa semua perairan di sekitar, di antara, dan yang menghubungkan pulau-pulau atau bagian pulau-pulau yang termasuk daratan Negara Republik Indonesia, dengan tidak memandang luas atau lebarnya, adalah bagian dari wilayah Negara Republik Indonesia dan dengan demikian merupakan bagian dari perairan nasional yang berada di bawah kedaulatan mutlak Negara Republik Indonesia.',
+				],
+				[
+					'title' => 'UNCLOS 1982',
+					'icon' => 'fa fa-gavel',
+					'year' => '1982',
+					'body' => 'Pada pertemuan Konvensi Hukum Laut PBB ke-3 (United Nation Convention on the Law of the Sea/UNCLOS) tanggal 10 Desember 1982, konsep Wawasan Nusantara akhirnya diakui dunia sebagai The Archipelagic Nation Concept. Di situ ditetapkan laut teritorial negara kepulauan adalah selebar 12 mil dari garis dasar atau base line terluar pulau-pulau dan ZEE selebar 200 mil dari dari garis dasar. Melalui UNCLOS 1982, luas laut Indonesia bertambah, dari sebelumnya kurang dari satu juta kilometer persegi menjadi 5,8 juta kilometer persegi. Luas tersebut terdiri dari laut teritorial dan perairan pedalaman seluas 3,1 juta kilometer persegi dan ZEE seluas 2,7 juta kilometer persegi.',
+				],
+				[
+					'title' => 'Dukungan Peraturan',
+					'icon' => 'fa fa-balance-scale',
+					'year' => '1996',
+					'body' => 'Dalam perkembangannya, ketentuan mengenai wilayah kedaulatan maritim Indonesia juga diatur dalam <a class="text-info fw-bold" href="https://peraturan.bpk.go.id/Details/46096/uu-no-6-tahun-1996" target="_blank">Undang-Undang Nomor 6 Tahun 1996 tentang Perairan Indonesia</a>. Di pasal 4 disebutkan bahwa Kedaulatan Negara Republik Indonesia di perairan Indonesia meliputi laut teritorial, perairan kepulauan, dan perairan pedalaman serta ruang udara di atas laut teritorial, perairan kepulauan, dan perairan pedalaman serta dasar laut dan tanah di bawahnya termasuk sumber kekayaan alam yang terkandung di dalamnya. Berdasarkan Undang-Undang tersebut, luas wilayah perairan Indonesia bertambah menjadi kurang lebih sebesar 3.166.163 kilometer persegi. Dengan demikian, luas wilayah bertambah, dari 2.027.087 kilometer persegi (daratan) bertambah menjadi 5.193.250 kilometer persegi (darat dan laut).',
+				],
+				[
+					'title' => 'Pelayaran di Ruang Maritim',
+					'icon' => 'fa fa-anchor',
+					'year' => '2008',
+					'body' => 'Terkait dengan kedaulatan maritimnya, Indonesia juga mengatur pelayaran di ruang maritim. Dalam <a class="text-info fw-bold" href="https://peraturan.bpk.go.id/Home/Download/28451/UU%20Nomor%2017%20Tahun%202008.pdf" target="_blank">Undang-Undang Nomor 17 Tahun 2008 tentang Pelayaran</a> Pasal 11 ayat (1) ditegaskan bahwa kegiatan angkutan laut dari dan ke luar negeri dilakukan oleh perusahaan angkutan laut nasional atau perusahaan angkutan laut asing dengan menggunakan kapal berbendera Indonesia atau kapal asing (Pasal 11 UU 17/2008). Sedangkan, ketentuan mengenai kegiatan angkutan laut luar negeri terdapat dalam Peraturan Pemerintah Nomor 31 Tahun 2021 Tentang Penyelenggaraan Bidang Pelayaran.',
+				],
+			];
+
+			return view('history',[
+				"cities" => City::orderBy('id', 'ASC')->get(),
+				"marines" => $marines,
+				"title" => "Sejarah Maritim Indonesia",
+				// "tourisms" => Tourism::orderBy('name', 'ASC')->get(),
+				// "testimonials" => Testimonial::orderBy('updated_at', 'DESC')->get(),
+			]);
     }
 
 }
