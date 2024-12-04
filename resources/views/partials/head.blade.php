@@ -18,6 +18,7 @@
   <link rel="stylesheet" href="assets/vendor/bootstrap-icons/bootstrap-icons.css">
   <link rel="stylesheet" href="assets/vendor/font-awesome/css/font-awesome.min.css"/>
   <link rel="stylesheet" href="assets/vendor/mdb/css/mdb.min.css" />
+  <link rel="stylesheet" href="assets/vendor/justified-gallery/justifiedGallery.min.css" />
   <link rel="stylesheet" href="assets/vendor/leaflet/leaflet.css" />
   <link rel="stylesheet" href="assets/vendor/pannellum/pannellum.css" />
   <link rel="stylesheet" href="assets/vendor/select2/select2.min.css" />

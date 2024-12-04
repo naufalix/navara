@@ -25,7 +25,7 @@
                 </div>
                 <div class="menu-item">
                   <a class="menu-link py-2" href="/dashboard/city">
-                    <span class="menu-title menu-icon"><i class="fa fa-bank fs-3"></i> Kota</span>
+                    <span class="menu-title menu-icon"><i class="fa fa-bank"></i> Kota / Daerah</span>
                   </a>
                 </div>
                 <div class="menu-item">
@@ -34,8 +34,13 @@
                   </a>
                 </div>
                 <div class="menu-item">
-                  <a class="menu-link py-2" href="/dashboard/cultural">
-                    <span class="menu-title menu-icon"><i class="mdi mdi-drama-masks fs-3"></i> Agenda Budaya</span>
+                  <a class="menu-link py-2" href="/dashboard/gallery">
+                    <span class="menu-title menu-icon"><i class="fa fa-photo"></i> Galeri</span>
+                  </a>
+                </div>
+                <div class="menu-item">
+                  <a class="menu-link py-2" href="/dashboard/agenda">
+                    <span class="menu-title menu-icon"><i class="fa fa-calendar"></i> Agenda Kegiatan</span>
                   </a>
                 </div>
                 <div class="menu-item">

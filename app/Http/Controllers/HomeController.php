@@ -2,7 +2,9 @@
 
 namespace App\Http\Controllers;
 use App\Http\Controllers\Controller;
+use App\Models\Agenda;
 use App\Models\City;
+use App\Models\Gallery;
 use App\Models\Testimonial;
 use App\Models\Tourism;
 
@@ -11,8 +13,10 @@ class HomeController extends Controller
 
     public function index(){
 			return view('home',[
+				"agendas" => Agenda::all(),
 				"cities" => City::orderBy('id', 'ASC')->get(),
 				"title" => "Navara Nusantara",
+				"galleries" => Gallery::orderBy('sort', 'ASC')->get(),
 				// "tourisms" => Tourism::orderBy('name', 'ASC')->get(),
 				// "testimonials" => Testimonial::orderBy('updated_at', 'DESC')->get(),
 			]);
@@ -56,9 +60,7 @@ class HomeController extends Controller
 			return view('history',[
 				"cities" => City::orderBy('id', 'ASC')->get(),
 				"marines" => $marines,
-				"title" => "Sejarah Maritim Indonesia",
-				// "tourisms" => Tourism::orderBy('name', 'ASC')->get(),
-				// "testimonials" => Testimonial::orderBy('updated_at', 'DESC')->get(),
+				"title" => "Sejarah Maritim Indonesia"
 			]);
     }
 

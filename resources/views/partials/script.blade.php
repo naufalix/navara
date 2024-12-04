@@ -1,6 +1,7 @@
 <!-- Vendor JS Files -->
 <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 <script src="assets/vendor/mdb/js/mdb.umd.min.js"></script>
+<script src="assets/vendor/justified-gallery/justifiedGallery.min.js"></script>
 <script src="assets/vendor/leaflet/leaflet.js"></script>
 <script src="assets/vendor/leaflet/leaflet-providers.js"></script>
 <script src="assets/vendor/select2/select2.min.js"></script>

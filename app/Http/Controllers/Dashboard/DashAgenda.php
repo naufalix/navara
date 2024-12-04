@@ -2,22 +2,20 @@
 
 namespace App\Http\Controllers\Dashboard;
 use App\Http\Controllers\Controller;
-use App\Models\Cultural;
-use App\Models\City;
+use App\Models\Agenda;
 use Illuminate\Http\Request;
 use Intervention\Image\Image;
 use Intervention\Image\ImageManager;
 use Intervention\Image\Drivers\Gd\Driver;
 use Maatwebsite\Excel\Facades\Excel;
 
-class DashCultural extends Controller
+class DashAgenda extends Controller
 {
 
     public function index(){
-        return view('dashboard.cultural',[
-            "title" => "Dashboard | Agenda Budaya",
-            "culturals" => Cultural::orderBy("id","DESC")->get(),
-            "cities" => City::orderBy("name","ASC")->get(),
+        return view('dashboard.agenda',[
+            "title" => "Dashboard | Agenda Kegiatan",
+            "agendas" => Agenda::orderBy("id","DESC")->get(),
         ]);
     }
 
@@ -40,10 +38,10 @@ class DashCultural extends Controller
 
     public function store(Request $request){
         $validatedData = $request->validate([
-            'city_id'=>'required',
+            'city'=>'required',
             'title'=>'required',
             'date'=>'required',
-            'place'=>'required',
+            'source'=>'required',
             'price'=>'required',
             'image' => 'required|image|file|max:1024',
         ]);
@@ -72,36 +70,36 @@ class DashCultural extends Controller
         
         // Upload new image
         $validatedData['image'] = time().".webp";
-        $imageWebp->save('assets/img/cultural/'.$validatedData['image']);
+        $imageWebp->save('assets/img/agenda/'.$validatedData['image']);
         
-        Cultural::create($validatedData);
-        return ['status'=>'success','message'=>'Agenda Budaya berhasil ditambahkan'];
+        Agenda::create($validatedData);
+        return ['status'=>'success','message'=>'Agenda Kegiatan berhasil ditambahkan'];
 
     }
 
     public function update(Request $request){
         $validatedData = $request->validate([
             'id'=>'required|numeric',
-            'city_id'=>'required',
+            'city'=>'required',
             'title'=>'required',
             'date'=>'required',
-            'place'=>'required',
+            'source'=>'required',
             'price'=>'required',
             'image' => 'image|file|max:1024',
         ]);
         
-        $cultural = Cultural::find($request->id);
+        $cultural = Agenda::find($request->id);
 
         //Check if the Cultural is found
         if(!$cultural){
-            return ['status'=>'error','message'=>'Agenda Budaya tidak ditemukan'];
+            return ['status'=>'error','message'=>'Agenda Kegiatan tidak ditemukan'];
         }
         
         //Check if has image
         if($request->file('image')){
 
             // Delete old image
-            $image_path = public_path().'/assets/img/cultural/'.$cultural->image;
+            $image_path = public_path().'/assets/img/agenda/'.$cultural->image;
             if (file_exists($image_path)) {
                 unlink($image_path); // Delete the image file
             }
@@ -130,15 +128,15 @@ class DashCultural extends Controller
             
             // Upload new image
             $validatedData['image'] = $validatedData['id'].'-'.time().".webp";
-            $imageWebp->save('assets/img/cultural/'.$validatedData['image']);
+            $imageWebp->save('assets/img/agenda/'.$validatedData['image']);
             
             $cultural->update($validatedData);
-            return ['status'=>'success','message'=>'Agenda Budaya berhasil diupdate'];
+            return ['status'=>'success','message'=>'Agenda Kegiatan berhasil diupdate'];
             
         }else{
             // Update data
             $cultural->update($validatedData);    
-            return ['status'=>'success','message'=>'Agenda Budaya berhasil diedit'];
+            return ['status'=>'success','message'=>'Agenda Kegiatan berhasil diedit'];
         }
         
     }
@@ -149,22 +147,22 @@ class DashCultural extends Controller
             'id' => 'required|numeric',
         ]);
 
-        $cultural = Cultural::find($request->id);
+        $cultural = Agenda::find($request->id);
 
         // Check if the data is found
         if (!$cultural) {
-            return ['status' => 'error', 'message' => 'Agenda Budaya tidak ditemukan'];
+            return ['status' => 'error', 'message' => 'Agenda Kegiatan tidak ditemukan'];
         }
 
-        $image_path = public_path().'/assets/img/cultural/'.$cultural->image;
+        $image_path = public_path().'/assets/img/agenda/'.$cultural->image;
 
         // Check if the image file exists before attempting to delete it
         if (file_exists($image_path)) {
             unlink($image_path); // Delete the image file
         }
 
-        Cultural::destroy($request->id);
-        return ['status' => 'success', 'message' => 'Agenda Budaya berhasil dihapus'];
+        Agenda::destroy($request->id);
+        return ['status' => 'success', 'message' => 'Agenda Kegiatan berhasil dihapus'];
     }
 
 }

@@ -498,6 +498,30 @@ section{
   justify-content: center;
 }
 
+/* Gallery */
+/* #gallery #imageModal {
+  max-width: 80vh;
+} */
+#gallery #imageModal .btn-close{
+  position: absolute;
+  right: 0;
+  z-index: 2;
+}
+#gallery #imageModal .vr-close{
+  position: absolute;
+  right: 0;
+  z-index: 2;
+  color: white;
+  background: #00000050;
+}
+#gallery .jg-caption{
+  background: linear-gradient(to bottom, transparent, #00000099);
+  display: block;
+  height: 100px;
+  align-content: end;
+  padding: 12px;
+}
+
 
 /* *{
 	cursor: url(/assets/img/cursor.png),auto !important;
