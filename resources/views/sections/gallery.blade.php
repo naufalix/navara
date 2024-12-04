@@ -25,7 +25,7 @@
     <div class="modal-dialog modal-lg modal-dialog-centered">
       <div class="modal-content">
         <div class="modal-body p-0">
-          <a class="btn-icon px-2 py-1 vr-close" data-dismiss="modal"><i class="bi bi-x-lg"></i></a>
+          <a class="btn-icon px-2 py-1 vr-close" data-bs-dismiss="modal"><i class="bi bi-x-lg"></i></a>
           <img id="modalImage" src="" alt="Image" class="w-100" />
         </div>
       </div>

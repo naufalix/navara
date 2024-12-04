@@ -7,9 +7,18 @@
     object-fit: cover;
     aspect-ratio: 1 / 1;
   }
+  #agenda .agenda-info p{
+    font-size: 14px;
+  }
   @media (max-width: 992px) {
     #agenda img {
-      max-width: 50px;
+      /* max-width: 50px; */
+    }
+    #agenda h4 {
+      font-size: 14px;
+    }
+    #agenda .agenda-info p{
+      font-size: 12px;
     }
   }
 </style>
@@ -35,14 +44,14 @@
               <div class="me-3 my-auto">
                 <img src="/assets/img/agenda/{{$a->image}}" class="my-auto rounded-3" alt="">
               </div>
-              <div class="text-start"> 
+              <div class="text-start agenda-info my-auto"> 
                 <h4 class="mb-0 fw-bold">{{$a->title}}</h4>
                 <span class="badge rounded-pill badge-info">{{$a->price}}</span>
-                <p class="mb-0" style="font-size: 14px">{{$a->date}}</p>
-                <p class="mb-0" style="font-size: 14px"><i class="fa fa-bank"></i> {{$a->city}}</p>
+                <p class="mb-0">{{$a->date}}</p>
+                <p class="mb-0"><i class="fa fa-bank"></i> {{$a->city}}</p>
               </div>
               <div class="ms-auto my-auto">
-                <a class="btn btn-info shadow-0" href="{{$a->source}}" target="_blank">Detail</a>
+                <a class="btn btn-info btn-sm shadow-0" href="{{$a->source}}" target="_blank">Detail</a>
               </div>
   
             </div>
