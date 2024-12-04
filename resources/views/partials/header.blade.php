@@ -16,7 +16,7 @@
           <li><a class="nav-link" lang-id="nv1" href="index.html#hero">Beranda</a></li>
           <li><a class="nav-link" lang-id="nv2" href="index.html#maps">Peta interaktif</a></li>
           <li><a class="nav-link" lang-id="nv3" href="index.html#city">Budaya & Tradisi</a></li>
-          <li><a class="nav-link" lang-id="nv4" href="index.html#virtual">Galeri</a></li>
+          <li><a class="nav-link" lang-id="nv4" href="index.html#gallery">Galeri</a></li>
           <li><a class="nav-link" lang-id="nv5" href="index.html#testimonial">Ulasan</a></li>
           
           <li id="day" class="theme">
