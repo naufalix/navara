@@ -17,8 +17,7 @@ class HomeController extends Controller
 				"cities" => City::orderBy('id', 'ASC')->get(),
 				"title" => "Navara Nusantara",
 				"galleries" => Gallery::orderBy('sort', 'ASC')->get(),
-				// "tourisms" => Tourism::orderBy('name', 'ASC')->get(),
-				// "testimonials" => Testimonial::orderBy('updated_at', 'DESC')->get(),
+				"testimonials" => Testimonial::orderBy('updated_at', 'DESC')->get(),
 			]);
     }
 

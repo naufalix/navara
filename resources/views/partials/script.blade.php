@@ -219,7 +219,7 @@
     },
     breakpoints: {
       640: {
-        slidesPerView: 3,
+        slidesPerView: @if($testimonials->count() >= 3) 3 @else 1 @endif,
         spaceBetween: 20,
       },
     },

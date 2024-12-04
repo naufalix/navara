@@ -10,8 +10,7 @@
   @include('sections.city')
   @include('sections.gallery')
   @include('sections.agenda')
-  {{-- @include('sections.virtual') --}}
-  {{-- @include('sections.testimonial') --}}
+  @include('sections.testimonial')
 @endsection
 
 @section('script')

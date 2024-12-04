@@ -22,13 +22,13 @@
           
           @foreach ($testimonials as $t)
           <div class="swiper-slide d-flex align-items-stretch">
-            <div class="card p-3 rounded-6">
+            <div class="card p-3 rounded-6" style="width: inherit">
           
               <div class="d-flex mb-2">
                 <div class="me-3 my-auto">
                   <img src="/assets/img/testimonials/{{ $t->image }}" class="my-auto rounded-circle" alt="" style="width: 50px">
                 </div>
-                <div class="text-start"> 
+                <div class="text-start my-auto"> 
                   <h6 class="mb-0 fw-bold">{{ $t->name }}</h6>
                   <p class="mb-0" style="font-size: 12px">{{ $t->position }}</p>
                 </div>
@@ -51,7 +51,7 @@
 
     </div>
     <div class="d-flex pt-3">
-      <button type="button" class="btn btn-light mx-auto shadow-0 rounded-4" data-mdb-modal-init data-mdb-target="#review" lang-id="ts4">Kirim ulasan</button>
+      <button type="button" class="btn btn-info mx-auto shadow-0 rounded-4" data-mdb-modal-init data-mdb-target="#review" lang-id="ts4">Kirim ulasan</button>
     </div>
   </div>
 
@@ -69,7 +69,7 @@
         <div class="modal-body pt-0">
           <div class="row">
             <div class="col-12">
-              <h5 class="m-0 mt-4 text-primary" lang-id="ts5">Kirimkan ulasan anda</h5>
+              <h5 class="m-0 mt-4 text-info" lang-id="ts5">Kirimkan ulasan anda</h5>
               <p lang-id="ts6">Bagikan pengalaman anda menggunakan website ini!</p>
               <label class="my-2" lang-id="ts7">Nama anda</label>
               <input type="text" class="form-control mb-2 rounded-5" placeholder="Naufal Ulinnuha">
@@ -78,7 +78,7 @@
               <label class="my-2" lang-id="ts9">Ulasan anda</label>
               <textarea class="form-control rounded-5" rows="3" placeholder="Maksimal 400 karakter"></textarea>
               <div class="d-grid gap-2 mt-4">
-                <button class="btn btn-primary rounded-5" type="button" data-mdb-ripple-init lang-id="ts10">Kirim ulasan</button>
+                <button class="btn btn-info rounded-5" type="button" data-mdb-ripple-init lang-id="ts10">Kirim ulasan</button>
               </div>
             </div>
           </div>
