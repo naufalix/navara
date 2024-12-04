@@ -20,6 +20,11 @@
     #agenda .agenda-info p{
       font-size: 12px;
     }
+    #agenda .btn{
+      position: absolute;
+      right: 10px;
+      bottom: 10px;
+    }
   }
 </style>
 
