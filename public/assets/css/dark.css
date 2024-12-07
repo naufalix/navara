@@ -73,7 +73,7 @@
 
 /* Ensiklopedia */
 .dark #city{
-  background-color: #021526 !important;
+  background-color: #1B263A !important;
 }
 .dark #city .city-info h2,
 .dark #city .modal h3, 
@@ -94,6 +94,43 @@
 .dark #city #agenda .card {
   border: 1px solid #2E4057;
   background-color: #1B263A !important;
+}
+
+/* Gallery */
+.dark #gallery{
+  background-color: #021526 !important;
+}
+
+/* Agenda */
+.dark #agenda{
+  background-color: #1B263A !important;
+  /* background-color: #021526 !important; */
+}
+
+/* Nusantara */
+.dark #nusantara{
+  background-color: #1B263A !important;
+}
+.dark #nusantara h5{
+  color: white !important;
+}
+.dark #nusantara p{
+  color: #778DA9 !important;
+}
+.dark #nusantara img{
+  filter: drop-shadow(0px 0px 0px #FFFFFF) !important;
+}
+
+/* Maritim */
+.dark #maritim{
+  background: #021526 !important;
+}
+.dark #maritim h5, p{
+  color: #FFFFFF !important;
+}
+.dark #maritim span,
+.dark #maritim p.text-muted{
+  color: #778DA9 !important;
 }
 
 /* Virtual */

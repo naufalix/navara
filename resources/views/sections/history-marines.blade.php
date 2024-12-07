@@ -15,7 +15,9 @@
         </span>
         <h5 class="fw-bold">{{ $m['title'] }}</h5>
         <p class="text-muted mb-2 fw-bold"><span>Tahun</span> {{ $m['year'] }}</p>
-        <p class="text-muted">{!! Illuminate\Support\Str::markdown($m['body']) !!}</p>
+        <div class="text-muted markdown" style="text-align: justify">
+          {!! Illuminate\Support\Str::markdown($m['body']) !!}
+        </div>
       </li>
       @endforeach
     </ul>
