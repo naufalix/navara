@@ -20,6 +20,10 @@
     </div>
   </div>
 
+  <div class="d-flex mt-2">
+    <a href="galeri.html" class="btn btn-info mx-auto shadow-0">Lihat Virtual Tour</a>
+  </div>
+
   <!-- Modal -->
   <div class="modal fade" id="imageModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-lg modal-dialog-centered">
