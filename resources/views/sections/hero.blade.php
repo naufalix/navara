@@ -4,8 +4,10 @@
     <div class="row pt-5">
       <div class="col-12 col-md-6 my-auto py-5 text-md-start text-center">
         <h1 class="">Navara Nusantara</h1>
-        <p class="" lang-id="he1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam ea aut expedita ad inventore laboriosam, reprehenderit delectus animi sapiente doloremque aliquid est earum voluptatem perspiciatis quidem nihil hic iusto voluptatibus!</p>
-        <a class="btn btn-info shadow-0 rounded-4" href="#maps" lang-id="he2">Mulai Eksplorasi <i class="fa fa-sign-out ms-2"></i></a>
+        <p class="" lang-id="he1">
+          Dari luasnya samudera yang menyatukan pulau-pulau hingga kekayaan budaya yang hidup di setiap sudut Nusantara, mari kita rayakan keberagaman yang menjadi kekuatan bangsa. Selami keindahan alam, pelajari tradisi, dan bergabung dalam semangat persatuan Hari Nusantara!
+        </p>
+        <a class="btn btn-info shadow-0 rounded-4" href="#maps" lang-id="he2">Jelajahi Nusantara <i class="fa fa-sign-out ms-2"></i></a>
       </div>
       <div class="col-12 col-md-6 d-flex">
         <div class="mx-auto">
