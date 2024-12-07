@@ -13,7 +13,7 @@
   
         <div class="horizontal-timeline">
   
-          <ul class="list-inline items">
+          <ul class="list-inline items text-center">
             @php
               $days = [
                 ['year' => '2020','place' => 'Jakarta',],
