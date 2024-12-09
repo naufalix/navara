@@ -6,7 +6,7 @@ use App\Models\Agenda;
 use App\Models\City;
 use App\Models\Gallery;
 use App\Models\Testimonial;
-use App\Models\Tourism;
+use App\Models\Virtual;
 
 class HomeController extends Controller
 {
@@ -60,6 +60,15 @@ class HomeController extends Controller
 				"cities" => City::orderBy('id', 'ASC')->get(),
 				"marines" => $marines,
 				"title" => "Sejarah Maritim Indonesia"
+			]);
+    }
+
+		public function gallery(){
+			return view('gallery',[
+				"cities" => City::orderBy('id', 'ASC')->get(),
+				"galleries" => Gallery::orderBy('sort', 'ASC')->get(),
+				"title" => "Virtual Tour Nusantara",
+				"virtuals" => Virtual::orderBy('name', 'ASC')->get(),
 			]);
     }
 

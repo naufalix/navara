@@ -44,8 +44,8 @@
                   </a>
                 </div>
                 <div class="menu-item">
-                  <a class="menu-link py-2" href="/dashboard/tourism">
-                    <span class="menu-title menu-icon"><i class="mdi mdi-beach fs-3"></i> Destinasi Wisata</span>
+                  <a class="menu-link py-2" href="/dashboard/virtual">
+                    <span class="menu-title menu-icon"><i class="mdi mdi-panorama fs-2"></i> Virtual Tour</span>
                   </a>
                 </div>
                 <div class="menu-item">
