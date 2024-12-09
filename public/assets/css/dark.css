@@ -135,7 +135,8 @@
 .dark #maritim{
   background: #021526 !important;
 }
-.dark #maritim h5, p{
+.dark #maritim h5,
+.dark #maritim p{
   color: #FFFFFF !important;
 }
 .dark #maritim span,
