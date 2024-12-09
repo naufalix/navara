@@ -3,20 +3,20 @@
 namespace App\Http\Controllers\Dashboard;
 use App\Http\Controllers\Controller;
 use App\Models\City;
-use App\Models\Tourism;
+use App\Models\Virtual;
 use Illuminate\Http\Request;
 use Intervention\Image\Image;
 use Intervention\Image\ImageManager;
 use Intervention\Image\Drivers\Gd\Driver;
 use Maatwebsite\Excel\Facades\Excel;
 
-class DashTourism extends Controller
+class DashVirtual extends Controller
 {
 
     public function index(){
-        return view('dashboard.tourism',[
-            "title" => "Dashboard | Destinasi wisata",
-            "tourisms" => Tourism::orderBy("id","DESC")->get(),
+        return view('dashboard.virtual',[
+            "title" => "Dashboard | Virtual Tour",
+            "virtuals" => Virtual::orderBy("id","DESC")->get(),
             "cities" => City::orderBy("name","ASC")->get(),
         ]);
     }
@@ -44,7 +44,7 @@ class DashTourism extends Controller
 
     public function store(Request $request){
         $validatedData = $request->validate([
-            'city_id'=>'required',
+            'city'=>'required',
             'category'=>'required',
             'name'=>'required',
             'maps'=>'required',
@@ -75,35 +75,35 @@ class DashTourism extends Controller
         
         // Upload new image
         $validatedData['image'] = time().".webp";
-        $imageWebp->save('assets/img/tourism/'.$validatedData['image']);
+        $imageWebp->save('assets/img/virtual/'.$validatedData['image']);
         
-        Tourism::create($validatedData);
-        return ['status'=>'success','message'=>'Destinasi wisata berhasil ditambahkan'];
+        Virtual::create($validatedData);
+        return ['status'=>'success','message'=>'Virtual tour berhasil ditambahkan'];
 
     }
 
     public function update(Request $request){
         $validatedData = $request->validate([
             'id'=>'required|numeric',
-            'city_id'=>'required',
+            'city'=>'required',
             'category'=>'required',
             'name'=>'required',
             'maps'=>'required',
             'image' => 'image|file|max:1024',
         ]);
         
-        $tourism = Tourism::find($request->id);
+        $vr = Virtual::find($request->id);
 
-        //Check if the tourism is found
-        if(!$tourism){
-            return ['status'=>'error','message'=>'Destinasi wisata tidak ditemukan'];
+        //Check if the data is found
+        if(!$vr){
+            return ['status'=>'error','message'=>'Virtual tour tidak ditemukan'];
         }
         
         //Check if has image
         if($request->file('image')){
 
             // Delete old image
-            $image_path = public_path().'/assets/img/tourism/'.$tourism->image;
+            $image_path = public_path().'/assets/img/virtual/'.$vr->image;
             if (file_exists($image_path)) {
                 unlink($image_path); // Delete the image file
             }
@@ -132,15 +132,15 @@ class DashTourism extends Controller
             
             // Upload new image
             $validatedData['image'] = $validatedData['id'].'-'.time().".webp";
-            $imageWebp->save('assets/img/tourism/'.$validatedData['image']);
+            $imageWebp->save('assets/img/virtual/'.$validatedData['image']);
             
-            $tourism->update($validatedData);
-            return ['status'=>'success','message'=>'Destinasi wisata berhasil diupdate'];
+            $vr->update($validatedData);
+            return ['status'=>'success','message'=>'Virtual tour berhasil diupdate'];
             
         }else{
             // Update data
-            $tourism->update($validatedData);    
-            return ['status'=>'success','message'=>'Destinasi wisata berhasil diedit'];
+            $vr->update($validatedData);    
+            return ['status'=>'success','message'=>'Virtual tour berhasil diedit'];
         }
         
     }
@@ -151,15 +151,15 @@ class DashTourism extends Controller
             'virtual' => 'required|image|file|max:5120',
         ]);
         
-        $tourism = Tourism::find($request->id);
+        $vr = Virtual::find($request->id);
 
-        //Check if the tourism is found
-        if(!$tourism){
-            return ['status'=>'error','message'=>'Destinasi wisata tidak ditemukan'];
+        //Check if the data is found
+        if(!$vr){
+            return ['status'=>'error','message'=>'Virtual tour tidak ditemukan'];
         }
 
         // Delete old image
-        $image_path = public_path() . '/assets/img/virtual/' . $tourism->virtual;
+        $image_path = public_path() . '/assets/img/virtual/' . $vr->virtual;
         if (is_file($image_path) && file_exists($image_path)) {
             unlink($image_path); // Delete the image file
         }
@@ -168,8 +168,8 @@ class DashTourism extends Controller
         $validatedData['virtual'] = $validatedData['id'].'-'.time().".jpg";
         $request->file('virtual')->move(public_path('assets/img/virtual'), $validatedData['virtual']);
         
-        $tourism->update($validatedData);
-        return ['status'=>'success','message'=>'Destinasi wisata berhasil diupdate'];
+        $vr->update($validatedData);
+        return ['status'=>'success','message'=>'Virtual tour berhasil diupdate'];
             
     
         
@@ -181,22 +181,22 @@ class DashTourism extends Controller
             'id' => 'required|numeric',
         ]);
 
-        $tourism = Tourism::find($request->id);
+        $vr = Virtual::find($request->id);
 
         // Check if the data is found
-        if (!$tourism) {
-            return ['status' => 'error', 'message' => 'Destinasi wisata tidak ditemukan'];
+        if (!$vr) {
+            return ['status' => 'error', 'message' => 'Virtual tour tidak ditemukan'];
         }
 
-        $image_path = public_path().'/assets/img/tourism/'.$tourism->image;
+        $image_path = public_path().'/assets/img/virtual/'.$vr->image;
 
         // Check if the image file exists before attempting to delete it
         if (file_exists($image_path)) {
             unlink($image_path); // Delete the image file
         }
 
-        Tourism::destroy($request->id);
-        return ['status' => 'success', 'message' => 'Destinasi wisata berhasil dihapus'];
+        Virtual::destroy($request->id);
+        return ['status' => 'success', 'message' => 'Virtual tour berhasil dihapus'];
     }
 
 }
