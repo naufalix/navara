@@ -1,33 +1,3 @@
-<style>
-  #agenda{
-    background-color: #E2EAF7;
-  }
-  #agenda img {
-    max-width: 100px;
-    object-fit: cover;
-    aspect-ratio: 1 / 1;
-  }
-  #agenda .agenda-info p{
-    font-size: 14px;
-  }
-  @media (max-width: 992px) {
-    #agenda img {
-      /* max-width: 50px; */
-    }
-    #agenda h4 {
-      font-size: 14px;
-    }
-    #agenda .agenda-info p{
-      font-size: 12px;
-    }
-    #agenda .btn{
-      position: absolute;
-      right: 10px;
-      bottom: 10px;
-    }
-  }
-</style>
-
 <section id="agenda" class="py-5">
 
   <div class="container aos-init aos-animate" data-aos="fade-up">
@@ -66,14 +36,16 @@
           </div>
         </div>  
       @endforeach
+    </div>
+  
+    @if ($agendas->count()>4)
+      <div class="d-flex mb-4">
+        <button class="btn btn-info mx-auto shadow-0" data-mdb-collapse-init data-mdb-target="#collapseAgenda"
+        aria-expanded="false" aria-controls="collapseAgenda">Muat lebih banyak</button>
+      </div>
 
-      @if ($agendas->count()>4)
-        <div class="d-flex mb-4">
-          <button class="btn btn-info mx-auto" data-mdb-collapse-init data-mdb-target="#collapseAgenda"
-          aria-expanded="false" aria-controls="collapseAgenda">Muat lebih banyak</button>
-        </div>
-
-        <div class="collapse" id="collapseAgenda">
+      <div class="collapse" id="collapseAgenda">
+        <div class="row">
           @foreach ($agendas as $a)
             @if ($loop->iteration < 5)
               @continue
@@ -99,9 +71,9 @@
             </div>  
           @endforeach
         </div>
-      @endif
-      
-    </div>
+      </div>
+    @endif
+
   </div>
 
   

@@ -95,6 +95,10 @@
     map.setZoom(12);
     map.panTo(new L.LatLng(lat, lng));
   });
+  $('#selectcity2').select2();
+  $('#selectcity2').on('change', function() {
+    swiper.slideTo($(this).val() - 1);
+  });
 
   // Initialize Swiper for encyclopedia
   var swiper = new Swiper(".mySwiper", {

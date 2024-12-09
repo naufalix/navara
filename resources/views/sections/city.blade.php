@@ -8,9 +8,14 @@
         <i lang-id="en3">Temukan budaya-budaya dari seluruh penjuru Indonesia!</i>
       </p>
       <div class="d-flex justify-content-center">
-        @foreach ($cities as $c)
-          <button class="btn btn-sm btn-outline-info mx-1 btn-city c{{$loop->iteration}}" onclick="selectCity({{$loop->iteration}})" >{{ $c->name }}</button>
-        @endforeach
+        
+        <select name="" id="selectcity2" class="form-control form-select rounded-6">
+          <option selected disabled value="">Cari daerah atau kota</option>
+          @foreach ($cities as $c)
+            <option value="{{$loop->iteration}}">{{ $c->name }}</option>
+          @endforeach
+        </select>
+
       </div>
     </div>
   </div>
