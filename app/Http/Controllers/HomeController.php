@@ -16,7 +16,7 @@ class HomeController extends Controller
 				"agendas" => Agenda::all(),
 				"cities" => City::orderBy('id', 'ASC')->get(),
 				"title" => "Navara Nusantara",
-				"galleries" => Gallery::orderBy('sort', 'ASC')->get(),
+				"virtuals" => Virtual::orderBy('name', 'ASC')->get(),
 				"testimonials" => Testimonial::orderBy('updated_at', 'DESC')->get(),
 			]);
     }
