@@ -19,7 +19,7 @@
               </div>
               <div class="mx-3">
                 <p class="mb-0 h4 counter">{{ $s['count'] }}</p>
-                <p class="mb-0" lang-id="st{{$loop->iteration}}">{{ $s['name'] }}</p>
+                <p class="mb-0" lang-id="st{{ str_replace('.webp', '', $s['image'])[1] }}">{{ $s['name'] }}</p>
               </div>
             </div>
           </div>

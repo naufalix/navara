@@ -21,7 +21,6 @@
   $(window).scroll(function(){
     $('nav').toggleClass('scrolled', $(this).scrollTop() > 100);
   });
-
  
   // Function change theme
   function changetheme(theme) {
@@ -58,36 +57,18 @@
 
   // Function change language
   function language(lang) {
-    $('.lang').css('display', 'none');
-    $('#lang_' + lang).css('display', 'block');
-
     // Ambil data JSON dari file /json/languages.json
-    fetch('/json/languages.json')
-      .then(response => response.json())
-      .then(languages => {
-        // Iterasi setiap item di dalam data JSON
-        languages.forEach(l => {
-          // Periksa bahasa yang dipilih
-          if (lang === 'id') {
-            // Ubah teks elemen berdasarkan lang_id
-            $("[lang-id="+l.id+"]").text(l.lang_id);
-          } else if (lang === 'en') {
-            // Ubah teks elemen berdasarkan lang_en
-            $("[lang-id="+l.id+"]").text(l.lang_en);
-          }
-        });
-      })
-      .catch(error => {
-        console.error('Error loading languages:', error);
+    $.getJSON("/json/languages.json", function(json) {
+      // Iterasi setiap item di dalam data JSON
+      json.forEach(l => {
+      // Akses properti bahasa berdasarkan nilai variabel lang
+        const text = l[`lang_${lang}`];
+        if (text) {
+          $("[lang-id=" + l.id + "]").text(text);
+        }
       });
+    });
   }
-
-  
-
-
-  
-
-  
 
   // var swiper2 = new Swiper(".mySwiper2", {
   //   effect: "coverflow",
@@ -115,8 +96,6 @@
   //   }
   // });
 
-  
-
   // var swiper4 = new Swiper(".mySwiper4", {
   //   slidesPerView: 1,
   //   spaceBetween: 30,
@@ -130,15 +109,6 @@
   //     prevEl: ".quotes-prev",
   //   },
   // });
-
-  // Function set virtual tour
-  // function setvr(virtual,maps){
-  //   pannellum.viewer('panorama', {
-  //     "type": "equirectangular",
-  //     "panorama": "/assets/img/virtual/"+virtual
-  //   });
-  //   $('.gmaps').attr('href', maps);
-  // }
 
   // Function set youtube video
   function setyt(url){

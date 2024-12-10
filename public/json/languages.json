@@ -1,0 +1,398 @@
+[
+  {
+    "id" : "nv1",
+    "lang_id": "Beranda",
+    "lang_en": "Home",
+		"lang_jw": "Beranda",
+		"lang_my": "Rumah",
+		"lang_bj": "Beranda",
+		"lang_st": "Beranda"
+	},
+  {
+    "id" : "nv2",
+    "lang_id": "Peta Interaktif",
+    "lang_en": "Interactive Map",
+		"lang_jw": "Peta Interaktif",
+		"lang_my": "Peta Interaktif",
+		"lang_bj": "Peta Interaktif",
+		"lang_st": "Peta Interaktif"
+	},
+  {
+    "id" : "nv3",
+    "lang_id": "Budaya & Tradisi",
+    "lang_en": "Culture & Tradition",
+		"lang_jw": "Budaya & Tradisi",
+		"lang_my": "Budaya & Tradisi",
+		"lang_bj": "Budaya & Tradisi",
+		"lang_st": "Budaya & Tradisi"
+	},
+  {
+    "id" : "nv4",
+    "lang_id": "Galeri",
+    "lang_en": "Gallery",
+		"lang_jw": "Galeri",
+		"lang_my": "Galeri",
+		"lang_bj": "Galeri",
+		"lang_st": "Galeri"
+	},
+  {
+    "id" : "nv5",
+    "lang_id": "Ulasan",
+    "lang_en": "Reviews",
+		"lang_jw": "Ulasan",
+		"lang_my": "Semakan",
+		"lang_bj": "Ulasan",
+		"lang_st": "Ulasan"
+	},
+  {
+    "id" : "nv6",
+    "lang_id": "Pilih Bahasa",
+    "lang_en": "Choose Language",
+    "lang_jw": "Pilih Basa",
+    "lang_my": "Pilih Bahasa",
+    "lang_bj": "Pilih Bahari",
+    "lang_st": "Yipiya Bahasa"
+	},
+  {
+    "id" : "he1",
+    "lang_id": "Dari luasnya samudera yang menyatukan pulau-pulau hingga kekayaan budaya yang hidup di setiap sudut Nusantara, mari kita rayakan keberagaman yang menjadi kekuatan bangsa. Selami keindahan alam, pelajari tradisi, dan bergabung dalam semangat persatuan Hari Nusantara!",
+    "lang_en": "From the vast oceans that unite the islands to the rich culture that lives in every corner of the archipelago, let us celebrate the diversity that is the strength of the nation. Dive into the beauty of nature, learn about traditions, and join in the spirit of unity of Hari Nusantara!",
+		"lang_jw": "Saking wiyaripun seganten ingkang ngempalaken pulau-pulau ngantos kesugihan budaya ingkang gesang ing saben sudut nusantara, sumangga kita rayakan keberagaman ingkang dados kekiyatan bangsa. Selami keindahan alam, sinauni tradisi, lan gabung lebet sengkuyung persatuan dinten Nusantara!",
+		"lang_my": "Daripada keluasan lautan yang menyatukan pulau-pulau sehinggalah kepada kekayaan budaya yang hidup di setiap pelusuk nusantara, mari kita raikan kepelbagaian yang menjadi kekuatan negara. Selami keindahan alam, pelajari tentang tradisi, dan sertai semangat perpaduan Hari Kepulauan Indonesia!",
+		"lang_bj": "Dari luasnya samudera yang menyambungkan pulau-pulau sampai kayaannya budaya di tiap sudut Nusantara, ayuh kita rayakan keberagaman nang jadi kekuatan bangsa. Selami keindahan alam, pelajari tradisi, dan ikuti semangat persatuan Hari Nusantara!",
+		"lang_st": "Dari luasnya samudera yang menyatukan pulau-pulau hingga kekayaan budaya yang hidup di setiap sudut Nusantara, mari kita rayakan keberagaman yang menjadi kekuatan bangsa. Selami keindahan alam, pelajari tradisi, dan bergabung dalam semangat persatuan Hari Nusantara!"
+	},
+  {
+    "id" : "he2",
+    "lang_id": "JELAJAHI NUSANTARA",
+    "lang_en": "EXPLORE THE ARCHIPELAGO",
+		"lang_jw": "JELAJAHI NUSANTARA",
+		"lang_my": "TEROKAI NUSANTARA",
+		"lang_bj": "JELAJAHI NUSANTARA",
+		"lang_st": "JELAJAHI NUSANTARA"
+	},
+  {
+    "id" : "st1",
+    "lang_id": "Warisan Budaya",
+    "lang_en": "Cultural Heritage",
+		"lang_jw": "Tilaran Budaya",
+		"lang_my": "Warisan Budaya",
+		"lang_bj": "Warisan Budaya",
+		"lang_st": "Warisan Budaya"
+	},
+  {
+    "id" : "st2",
+    "lang_id": "Suku Bangsa",
+    "lang_en": "Nation Tribes",
+		"lang_jw": "Suku bangsa",
+		"lang_my": "Etnik",
+		"lang_bj": "Suku bangsa",
+		"lang_st": "Suku bangsa"
+	},
+  {
+    "id" : "st3",
+    "lang_id": "Bahasa Daerah",
+    "lang_en": "Regional Language",
+		"lang_jw": "Basa Laladan",
+		"lang_my": "Bahasa Serantau",
+		"lang_bj": "Bahasa Daerah",
+		"lang_st": "Bahasa Daerah"
+	},
+  {
+    "id" : "st4",
+    "lang_id": "Kuliner Khas",
+    "lang_en": "Specialty Culinary",
+		"lang_jw": "Panganan Khas",
+		"lang_my": "Masakan Khas",
+		"lang_bj": "Makanan Khas",
+		"lang_st": "Makanan Khas"
+	},
+  {
+    "id" : "ab1",
+    "lang_id": "Sejarah Hari Nusantara",
+    "lang_en": "History of Nusantara Day",
+		"lang_jw": "Sejarah Dinten Nusantara",
+		"lang_my": "Sejarah Hari Nusantara",
+		"lang_bj": "Sejarah Hari Nusantara",
+		"lang_st": "Sejarah Hari Nusantara"
+	},
+  {
+    "id" : "ab2",
+    "lang_id": "“Hari Nusantara jatuh pada tanggal 13 Desember yang diperingati setiap tahunnya berawal dari Deklarasi Djuanda pada tanggal 13 Desember 1957 yang menyatakan kepada dunia bahwa laut Indonesia di antara dan di dalam kepulauan Indonesia menjadi satu kesatuan wilayah NKRI.”",
+    "lang_en": "“Nusantara Day falls on December 13, which is commemorated annually, starting from the Djuanda Declaration on December 13, 1957, which stated to the world that the Indonesian sea between and within the Indonesian archipelago became a unitary territory of the Republic of Indonesia.”",
+		"lang_jw": "“Dinten Nusantara dhawah ing tanggal 13 Desember ingkang dipunpengeti saben warsanipun wiwitan saking deklarasi djuanda ing tanggal 13 desember 1957 ingkang nyatakaken dhateng donya menawi seganten indonesia ing antawis lan ing lebet kepulauan indonesia dados setunggal kesatuan tlatah NKRI. ”",
+		"lang_my": "“Archipelago Day jatuh pada 13 Disember, yang disambut setiap tahun bermula dari Deklarasi Djuanda pada 13 Disember 1957 yang menyatakan kepada dunia bahawa laut Indonesia antara dan dalam kepulauan Indonesia menjadi satu wilayah bersatu Republik Indonesia.”",
+		"lang_bj": "“Hari Nusantara jatuh di tanggal 13 Desember nang diperingati tiap tahunnya, bermula dari Deklarasi Djuanda tanggal 13 Desember 1957 nang manyatakan kepada dunia bahwa laut Indonesia antara dan di dalam kepulauan Indonesia jadi satu kesatuan wilayah NKRI.”",
+		"lang_st": "“Hari Nusantara jatuh pada tanggal 13 Desember yang diperingati setiap tahunnya berawal dari Deklarasi Djuanda pada tanggal 13 Desember 1957 yang menyatakan kepada dunia bahwa laut Indonesia di antara dan di dalam kepulauan Indonesia menjadi satu kesatuan wilayah NKRI.”"
+	},
+  {
+    "id" : "ab3",
+    "lang_id": "LIHAT SELENGKAPNYA",
+    "lang_en": "SEE MORE",
+		"lang_jw": "tingal sajangkepipun",
+		"lang_my": "LIHAT LAGI",
+		"lang_bj": "LIHAT SELENGKAPNYA",
+		"lang_st": "LIHAT SELENGKAPNYA"
+	},
+  {
+    "id" : "ab4",
+    "lang_id": "Sumber :",
+    "lang_en": "Source :",
+		"lang_jw": "Sumber :",
+		"lang_my": "Sumber :",
+		"lang_bj": "Sumber :",
+		"lang_st": "Sumber :"
+	},
+  {
+    "id" : "mp1",
+    "lang_id": "JELAJAHI",
+    "lang_en": "EXPLORE",
+		"lang_jw": "",
+		"lang_my": "",
+		"lang_bj": "",
+		"lang_st": ""
+	},
+  {
+    "id" : "mp2",
+    "lang_id": "peta interaktif",
+    "lang_en": "Interactive Map",
+		"lang_jw": "",
+		"lang_my": "",
+		"lang_bj": "",
+		"lang_st": ""
+	},
+  {
+    "id" : "mp3",
+    "lang_id": "Rasakan pengalaman menjelajah Budaya Nusantara dengan ujung jari Anda!",
+    "lang_en": "Experience exploring Indonesian culture at your fingertips!",
+		"lang_jw": "",
+		"lang_my": "",
+		"lang_bj": "",
+		"lang_st": ""
+	},
+  {
+    "id" : "mp4",
+    "lang_id": "Cari Daerah atau Kota di sini...",
+    "lang_en": "Search Region or City here...",
+		"lang_jw": "",
+		"lang_my": "",
+		"lang_bj": "",
+		"lang_st": ""
+	},
+  {
+    "id" : "en1",
+    "lang_id": "Pelajari",
+    "lang_en": "Learn",
+		"lang_jw": "",
+		"lang_my": "",
+		"lang_bj": "",
+		"lang_st": ""
+	},
+  {
+    "id" : "en2",
+    "lang_id": "Ensiklopedia Kekayaan Nusantara",
+    "lang_en": "Encyclopedia of Archipelago Wealth",
+		"lang_jw": "",
+		"lang_my": "",
+		"lang_bj": "",
+		"lang_st": ""
+	},
+  {
+    "id" : "en3",
+    "lang_id": "Temukan budaya-budaya dari seluruh penjuru Indonesia!",
+    "lang_en": "Discover cultures from all corners of Indonesia!",
+		"lang_jw": "",
+		"lang_my": "",
+		"lang_bj": "",
+		"lang_st": ""
+	},
+  {
+    "id" : "vr1",
+    "lang_id": "JELAJAHI",
+    "lang_en": "EXPLORE",
+		"lang_jw": "",
+		"lang_my": "",
+		"lang_bj": "",
+		"lang_st": ""
+	},
+  {
+    "id" : "vr2",
+    "lang_id": "Tur Virtual Wisata Indonesia",
+    "lang_en": "Virtual Tour of Indonesia",
+		"lang_jw": "",
+		"lang_my": "",
+		"lang_bj": "",
+		"lang_st": ""
+	},
+  {
+    "id" : "vr3",
+    "lang_id": "Mari kita jelajahi keindahannya bersama...",
+    "lang_en": "Let's explore its beauty together...",
+		"lang_jw": "",
+		"lang_my": "",
+		"lang_bj": "",
+		"lang_st": ""
+	},
+  {
+    "id" : "vr4",
+    "lang_id": "...dan biarkan Indonesia meninggalkan kesan mendalam di perjalananmu.",
+    "lang_en": "...and let Indonesia leave a deep impression on your journey.",
+		"lang_jw": "",
+		"lang_my": "",
+		"lang_bj": "",
+		"lang_st": ""
+	},
+  {
+    "id" : "ts1",
+    "lang_id": "Testimoni",
+    "lang_en": "Testimonials",
+		"lang_jw": "",
+		"lang_my": "",
+		"lang_bj": "",
+		"lang_st": ""
+	},
+  {
+    "id" : "ts2",
+    "lang_id": "Kata Mereka",
+    "lang_en": "Their Words",
+		"lang_jw": "",
+		"lang_my": "",
+		"lang_bj": "",
+		"lang_st": ""
+	},
+  {
+    "id" : "ts3",
+    "lang_id": "Temukan inspirasi dan rekomendasi dari sesama pengguna yang telah mencoba tur virtual dan ensiklopedia budaya",
+    "lang_en": "Find inspiration and recommendations from fellow users who have tried our virtual tour and cultural encyclopedia.",
+		"lang_jw": "",
+		"lang_my": "",
+		"lang_bj": "",
+		"lang_st": ""
+	},
+  {
+    "id" : "ts4",
+    "lang_id": "KIRIM ULASAN",
+    "lang_en": "SEND REVIEWS",
+		"lang_jw": "",
+		"lang_my": "",
+		"lang_bj": "",
+		"lang_st": ""
+	},
+  {
+    "id": "ts5",
+    "lang_id": "Kirimkan ulasan anda",
+    "lang_en": "Submit your review",
+		"lang_jw": "",
+		"lang_my": "",
+		"lang_bj": "",
+		"lang_st": ""
+	},
+  {
+    "id": "ts6",
+    "lang_id": "Bagikan pengalaman anda menggunakan website ini!",
+    "lang_en": "Share your experience using this website!",
+		"lang_jw": "",
+		"lang_my": "",
+		"lang_bj": "",
+		"lang_st": ""
+	},
+  {
+    "id": "ts7",
+    "lang_id": "Nama anda",
+    "lang_en": "Your name",
+		"lang_jw": "",
+		"lang_my": "",
+		"lang_bj": "",
+		"lang_st": ""
+	},
+  {
+    "id": "ts8",
+    "lang_id": "Siapakah anda",
+    "lang_en": "Who are you",
+		"lang_jw": "",
+		"lang_my": "",
+		"lang_bj": "",
+		"lang_st": ""
+	},
+  {
+    "id": "ts9",
+    "lang_id": "Ulasan anda",
+    "lang_en": "Your review",
+		"lang_jw": "",
+		"lang_my": "",
+		"lang_bj": "",
+		"lang_st": ""
+	},
+  {
+    "id": "ts10",
+    "lang_id": "Kirim ulasan",
+    "lang_en": "Submit review",
+		"lang_jw": "",
+		"lang_my": "",
+		"lang_bj": "",
+		"lang_st": ""
+	},
+  {
+    "id" : "ft1",
+    "lang_id": "Platform interaktif untuk menjelajahi keindahan alam, budaya, dan adat Nusantara melalui peta interaktif, ensiklopedia budaya, serta tur virtual.",
+    "lang_en": "An interactive platform to explore the natural beauty, culture, and customs of the Nusantara through interactive maps, cultural encyclopedias, and virtual tours.",
+		"lang_jw": "",
+		"lang_my": "",
+		"lang_bj": "",
+		"lang_st": ""
+	},
+  {
+    "id" : "ft2",
+    "lang_id": "FITUR",
+    "lang_en": "FEATURES",
+		"lang_jw": "",
+		"lang_my": "",
+		"lang_bj": "",
+		"lang_st": ""
+	},
+  {
+    "id" : "ft3",
+    "lang_id": "Beranda",
+    "lang_en": "Home",
+		"lang_jw": "",
+		"lang_my": "",
+		"lang_bj": "",
+		"lang_st": ""
+	},
+  {
+    "id" : "ft4",
+    "lang_id": "Peta Interaktif",
+    "lang_en": "Interactive Map",
+		"lang_jw": "",
+		"lang_my": "",
+		"lang_bj": "",
+		"lang_st": ""
+	},
+  {
+    "id" : "ft5",
+    "lang_id": "Ensiklopedia",
+    "lang_en": "Encyclopedia",
+		"lang_jw": "",
+		"lang_my": "",
+		"lang_bj": "",
+		"lang_st": ""
+	},
+  {
+    "id" : "ft6",
+    "lang_id": "Tur Virtual",
+    "lang_en": "Virtual Tour",
+		"lang_jw": "",
+		"lang_my": "",
+		"lang_bj": "",
+		"lang_st": ""
+	},
+  {
+    "id" : "ft7",
+    "lang_id": "KONTAK",
+    "lang_en": "CONTACT",
+		"lang_jw": "",
+		"lang_my": "",
+		"lang_bj": "",
+		"lang_st": ""
+	}
+]
