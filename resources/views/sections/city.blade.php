@@ -89,13 +89,13 @@
                 <div class="col-12 col-md-7 text-center text-md-start">
                   <h3 class="my-4">{{ $e->title }}</h3>
                   <p>{{ $e->description }}</p>
-                  <button type="button" class="btn btn-sm btn-primary mb-2">Lihat selengkapnya</button>
+                  <a href="{{ $e->source }}" class="btn btn-sm btn-info mb-2" target="_blank">Lihat selengkapnya</a>
                 </div>
               </div>
             </div>
             <div class="modal-footer border-0 pt-0">
               <span style="font-size: 12px">
-                Sumber : <a href="{{ $e->source }}" target="_blank">{{ parse_url($e->source, PHP_URL_HOST) }}</a>
+                Sumber : <a href="{{ $e->source }}" class="text-info" target="_blank">{{ parse_url($e->source, PHP_URL_HOST) }}</a>
               </span>
             </div>
           </div>
