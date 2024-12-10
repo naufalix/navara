@@ -3,7 +3,7 @@
   <div class="container aos-init aos-animate" data-aos="fade-up">
     <div class="section-title aos-init aos-animate pb-2" data-aos="zoom-out">
       <h5 class="text-info" lang-id="en1">Lorem ipsum</h5>
-      <h2 class="h-bg" lang-id="en2">Galeri</h2>
+      <h2 class="h-bg" lang-id="en2">Galeri Wisata Budaya Indonesia</h2>
       <p class="col-md-4 mx-auto">
         <i lang-id="en3">Mari kita jelajahi keindahan wisata budaya melalui tur virtual...</i>
       </p>
