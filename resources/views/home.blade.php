@@ -95,6 +95,16 @@
     map.setZoom(12);
     map.panTo(new L.LatLng(lat, lng));
   });
+  $('#searchnavbar').select2();
+  $('#searchnavbar').on('change', function() {
+    let coordinate = $(this).val(); 
+    let [lat, lng] = coordinate.split(',');
+    map.panTo(new L.LatLng(lat, lng));
+    map.setZoom(12);
+    map.panTo(new L.LatLng(lat, lng));
+    var top = $("#maps").position().top;
+    $('html').scrollTop(top);
+  });
   $('#selectcity2').select2();
   $('#selectcity2').on('change', function() {
     swiper.slideTo($(this).val() - 1);
@@ -143,11 +153,20 @@
       'lt1024': '_b'
     }
   })
-  $('#basicExample').on('click', 'div', function (event) {
-    const imageUrl = $(this).data('image');
-    $('#modalImage').attr('src', imageUrl);
-    $('#imageModal').modal('show');
-  });
+  // $('#basicExample').on('click', 'div', function (event) {
+  //   const imageUrl = $(this).data('image');
+  //   $('#modalImage').attr('src', imageUrl);
+  //   $('#imageModal').modal('show');
+  // });
+
+  // Function set virtual tour
+  function setvr(virtual,maps){
+    pannellum.viewer('panorama', {
+      "type": "equirectangular",
+      "panorama": "/assets/img/virtual/"+virtual
+    });
+    $('.gmaps').attr('href', maps);
+  }
 
 </script>  
 @endsection
