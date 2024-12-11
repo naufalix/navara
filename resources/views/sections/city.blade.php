@@ -10,7 +10,7 @@
       <div class="d-flex justify-content-center">
         
         <select name="" id="selectcity2" class="form-control form-select rounded-6">
-          <option selected disabled value="">Cari daerah atau kota</option>
+          <option selected disabled value="" lang-id="en4">Cari daerah atau kota</option>
           @foreach ($cities as $c)
             <option value="{{$loop->iteration}}">{{ $c->name }}</option>
           @endforeach
@@ -39,7 +39,7 @@
                     <div class="card-body">
                       <h5 class="card-title">{{ $e->title }}</h5>
                       <a href="#!" class="text-info">
-                        Explore <i class="fa fa-arrow-right"></i>
+                        <span lang-id="en5">Explore</span> <i class="fa fa-arrow-right"></i>
                       </a>
                     </div>
                   </div>
@@ -50,7 +50,7 @@
                     <div class="d-flex justify-content-center align-items-center h-100 rounded-3" style="background-color: #00000090;">
                       <div class="text-center">
                         <i class="fa fa-youtube-play fs-1 text-danger"></i>
-                        <p class="text-white mb-0">Play Video</p>
+                        <p class="text-white mb-0" lang-id="en6">Play Video</p>
                       </div>
                     </div>
                   </div>
@@ -89,13 +89,14 @@
                 <div class="col-12 col-md-7 text-center text-md-start">
                   <h3 class="my-4">{{ $e->title }}</h3>
                   <p>{{ $e->description }}</p>
-                  <a href="{{ $e->source }}" class="btn btn-sm btn-info mb-2" target="_blank">Lihat selengkapnya</a>
+                  <a href="{{ $e->source }}" class="btn btn-sm btn-info mb-2 shadow-0" target="_blank" lang-id="en7">Lihat selengkapnya</a>
                 </div>
               </div>
             </div>
             <div class="modal-footer border-0 pt-0">
+              <span lang-id="en8" style="font-size: 12px">Sumber : </span>
               <span style="font-size: 12px">
-                Sumber : <a href="{{ $e->source }}" class="text-info" target="_blank">{{ parse_url($e->source, PHP_URL_HOST) }}</a>
+                <a href="{{ $e->source }}" class="text-info" target="_blank">{{ parse_url($e->source, PHP_URL_HOST) }}</a>
               </span>
             </div>
           </div>

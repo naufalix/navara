@@ -2,10 +2,10 @@
 
   <div class="container aos-init aos-animate" data-aos="fade-up">
     <div class="section-title aos-init aos-animate pb-2" data-aos="zoom-out">
-      <h5 class="text-info" lang-id="en1">Lorem ipsum</h5>
-      <h2 class="h-bg" lang-id="en2">Agenda Kegiatan</h2>
+      <h5 class="text-info" lang-id="ag1">IKUTI</h5>
+      <h2 class="h-bg" lang-id="ag2">Agenda Kegiatan</h2>
       <p class="col-md-4 mx-auto">
-        <i lang-id="en3">Lorem ipsum dolor sit amet consectetur adipisicing elit.</i>
+        <i lang-id="ag3">Daftar kegiatan atau perayaan Hari Nusantara</i>
       </p>
     </div>
   </div>
@@ -41,7 +41,7 @@
     @if ($agendas->count()>4)
       <div class="d-flex mb-4">
         <button class="btn btn-info mx-auto shadow-0" data-mdb-collapse-init data-mdb-target="#collapseAgenda"
-        aria-expanded="false" aria-controls="collapseAgenda">Muat lebih banyak</button>
+        aria-expanded="false" aria-controls="collapseAgenda" lang-id="ag4">Muat lebih banyak</button>
       </div>
 
       <div class="collapse" id="collapseAgenda">

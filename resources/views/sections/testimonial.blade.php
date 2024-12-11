@@ -78,7 +78,7 @@
               <label class="my-2" lang-id="ts9">Ulasan anda</label>
               <textarea class="form-control rounded-5" rows="3" placeholder="Maksimal 400 karakter"></textarea>
               <div class="d-grid gap-2 mt-4">
-                <button class="btn btn-info rounded-5" type="button" data-mdb-ripple-init lang-id="ts10">Kirim ulasan</button>
+                <button class="btn btn-info rounded-5 shadow-0" type="button" data-mdb-ripple-init lang-id="ts10">Kirim ulasan</button>
               </div>
             </div>
           </div>

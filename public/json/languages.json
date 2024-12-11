@@ -51,7 +51,7 @@
     "lang_jw": "Pilih Basa",
     "lang_my": "Pilih Bahasa",
     "lang_bj": "Pilih Bahari",
-    "lang_st": "Yipiya Bahasa"
+    "lang_st": "Pilih Bahasa"
 	},
   {
     "id" : "he1",
@@ -147,252 +147,333 @@
     "id" : "mp1",
     "lang_id": "JELAJAHI",
     "lang_en": "EXPLORE",
-		"lang_jw": "",
-		"lang_my": "",
-		"lang_bj": "",
-		"lang_st": ""
+		"lang_jw": "Terokai",
+		"lang_my": "JELAJAHI",
+		"lang_bj": "JELAJAHI",
+		"lang_st": "JELAJAHI"
 	},
   {
     "id" : "mp2",
-    "lang_id": "peta interaktif",
+    "lang_id": "Peta Interaktif",
     "lang_en": "Interactive Map",
-		"lang_jw": "",
-		"lang_my": "",
-		"lang_bj": "",
-		"lang_st": ""
+		"lang_jw": "Peta Interaktif",
+		"lang_my": "Peta Interaktif",
+		"lang_bj": "Peta Interaktif",
+		"lang_st": "Peta Interaktif"
 	},
   {
     "id" : "mp3",
     "lang_id": "Rasakan pengalaman menjelajah Budaya Nusantara dengan ujung jari Anda!",
     "lang_en": "Experience exploring Indonesian culture at your fingertips!",
-		"lang_jw": "",
-		"lang_my": "",
-		"lang_bj": "",
-		"lang_st": ""
+		"lang_jw": "Rasakan pengalaman njelajah Budaya Nusantara nganggo driji panjenengan!",
+    "lang_my": "Rasakan pengalaman menjelajah Budaya Nusantara di hujung jari anda!",
+		"lang_bj": "Rasakan pengalaman menjelajah Budaya Nusantara dengan ujung jari Anda!",
+		"lang_st": "Rasakan pengalaman menjelajah Budaya Nusantara dengan ujung jari Anda!"
 	},
   {
     "id" : "mp4",
     "lang_id": "Cari Daerah atau Kota di sini...",
     "lang_en": "Search Region or City here...",
-		"lang_jw": "",
-		"lang_my": "",
-		"lang_bj": "",
-		"lang_st": ""
+		"lang_jw": "Golèk Daerah utawa Kutha ing kene...",
+    "lang_my": "Cari Daerah atau Bandar di sini...",
+    "lang_bj": "Cari Wilayah atawa Kota di sini...",
+		"lang_st": "Cari Daerah atau Kota di sini..."
 	},
   {
-    "id" : "en1",
+    "id": "en1",
     "lang_id": "Pelajari",
     "lang_en": "Learn",
-		"lang_jw": "",
-		"lang_my": "",
-		"lang_bj": "",
-		"lang_st": ""
+    "lang_jw": "Sinau",
+    "lang_my": "Belajar",
+    "lang_bj": "Pajari",
+    "lang_st": "Yapane"
+	},
+	{
+		"id": "en2",
+		"lang_id": "Ensiklopedia Kekayaan Nusantara",
+		"lang_en": "Encyclopedia of Archipelago Wealth",
+		"lang_jw": "Ensiklopedia Kasugihan Nusantara",
+		"lang_my": "Ensiklopedia Kekayaan Nusantara",
+		"lang_bj": "Ensiklopedia Kasugihan Banua",
+		"lang_st": "Ensiklopedia Kekayaan Indonesia"
+	},
+	{
+		"id": "en3",
+		"lang_id": "Temukan budaya-budaya dari seluruh penjuru Indonesia!",
+		"lang_en": "Discover cultures from all corners of Indonesia!",
+		"lang_jw": "Temokake budaya-budaya saka sak ndonya Indonesia!",
+		"lang_my": "Temui budaya-budaya dari seluruh pelosok Indonesia!",
+		"lang_bj": "Temukan budaya-budaya dari saumpat Banua!",
+		"lang_st": "Temukan budaya-budaya dari seluruh penjuru Indonesia!"
 	},
   {
-    "id" : "en2",
-    "lang_id": "Ensiklopedia Kekayaan Nusantara",
-    "lang_en": "Encyclopedia of Archipelago Wealth",
-		"lang_jw": "",
-		"lang_my": "",
-		"lang_bj": "",
-		"lang_st": ""
+    "id" : "en4",
+    "lang_id": "Cari Daerah atau Kota",
+    "lang_en": "Search Region or City",
+		"lang_jw": "Golèk Daerah utawa Kutha",
+    "lang_my": "Cari Daerah atau Bandar",
+    "lang_bj": "Cari Wilayah atawa Kota",
+		"lang_st": "Cari Daerah atau Kota"
 	},
   {
-    "id" : "en3",
-    "lang_id": "Temukan budaya-budaya dari seluruh penjuru Indonesia!",
-    "lang_en": "Discover cultures from all corners of Indonesia!",
-		"lang_jw": "",
-		"lang_my": "",
-		"lang_bj": "",
-		"lang_st": ""
-	},
-  {
-    "id" : "vr1",
+    "id" : "en5",
     "lang_id": "JELAJAHI",
     "lang_en": "EXPLORE",
-		"lang_jw": "",
-		"lang_my": "",
-		"lang_bj": "",
-		"lang_st": ""
+		"lang_jw": "Terokai",
+		"lang_my": "JELAJAHI",
+		"lang_bj": "JELAJAHI",
+		"lang_st": "JELAJAHI"
 	},
   {
-    "id" : "vr2",
-    "lang_id": "Tur Virtual Wisata Indonesia",
-    "lang_en": "Virtual Tour of Indonesia",
-		"lang_jw": "",
-		"lang_my": "",
-		"lang_bj": "",
-		"lang_st": ""
+    "id" : "en6",
+    "lang_id": "Mainkan video",
+    "lang_en": "Play video",
+		"lang_jw": "Putar video",
+    "lang_my": "Mainkan video",
+    "lang_bj": "Mainakan video",
+		"lang_st": "Mainkan video"
 	},
   {
-    "id" : "vr3",
-    "lang_id": "Mari kita jelajahi keindahannya bersama...",
-    "lang_en": "Let's explore its beauty together...",
-		"lang_jw": "",
-		"lang_my": "",
-		"lang_bj": "",
-		"lang_st": ""
+    "id" : "en7",
+    "lang_id": "LIHAT SELENGKAPNYA",
+    "lang_en": "SEE MORE",
+		"lang_jw": "tingal sajangkepipun",
+		"lang_my": "LIHAT LAGI",
+		"lang_bj": "LIHAT SELENGKAPNYA",
+		"lang_st": "LIHAT SELENGKAPNYA"
 	},
   {
-    "id" : "vr4",
-    "lang_id": "...dan biarkan Indonesia meninggalkan kesan mendalam di perjalananmu.",
-    "lang_en": "...and let Indonesia leave a deep impression on your journey.",
-		"lang_jw": "",
-		"lang_my": "",
-		"lang_bj": "",
-		"lang_st": ""
+    "id" : "en8",
+    "lang_id": "Sumber :",
+    "lang_en": "Source :",
+		"lang_jw": "Sumber :",
+		"lang_my": "Sumber :",
+		"lang_bj": "Sumber :",
+		"lang_st": "Sumber :"
+	},
+  {
+    "id": "gl2",
+    "lang_id": "Galeri Wisata Budaya Indonesia",
+    "lang_en": "Indonesian Cultural Tourism Gallery",
+    "lang_jw": "Galeri Wisata Budaya Indonesia",
+    "lang_my": "Galeri Pelancongan Budaya Indonesia",
+    "lang_bj": "Galeri Wisata Budaya Banua",
+    "lang_st": "Galeri Wisata Budaya Indonesia"
+	},
+	{
+		"id": "gl3",
+		"lang_id": "Mari kita jelajahi keindahan wisata budaya melalui tur virtual...",
+		"lang_en": "Let's explore the beauty of cultural tourism through a virtual tour...",
+		"lang_jw": "Ayo njelajah kaendahan wisata budaya liwat tur virtual...",
+		"lang_my": "Mari kita terokai keindahan pelancongan budaya melalui tur maya...",
+		"lang_bj": "Hayu kita jalajah kaindahan wisata budaya liwat tur virtual...",
+		"lang_st": "Mari kita jelajahi keindahan wisata budaya melalui tur virtual..."
+	},
+	{
+		"id": "gl4",
+		"lang_id": "...dan biarkan Indonesia meninggalkan kesan mendalam di perjalananmu.",
+		"lang_en": "...and let Indonesia leave a deep impression on your journey.",
+		"lang_jw": "...lan wenehi Indonesia ninggalake kesan mendalam ing perjalananmu.",
+		"lang_my": "...dan biarkan Indonesia meninggalkan kesan mendalam dalam perjalanan anda.",
+		"lang_bj": "...dan tambahi Indonesia ninggalakan kesan dalam di jalannmu.",
+		"lang_st": "...dan biarkan Indonesia meninggalkan kesan mendalam di perjalananmu."
+	},
+	{
+    "id": "ag1",
+    "lang_id": "IKUTI",
+    "lang_en": "FOLLOW",
+    "lang_jw": "MELU",
+    "lang_my": "IKUTI",
+    "lang_bj": "IKUTI",
+    "lang_st": "IKUTI"
+	},
+	{
+    "id": "ag2",
+    "lang_id": "Agenda Kegiatan",
+    "lang_en": "Event Agenda",
+    "lang_jw": "Agenda Kegiatan",
+    "lang_my": "Agenda Aktiviti",
+    "lang_bj": "Agenda Kegiatan",
+    "lang_st": "Agenda Kegiatan"
+	},
+	{
+    "id": "ag3",
+    "lang_id": "Daftar kegiatan atau perayaan Hari Nusantara",
+    "lang_en": "List of activities or Nusantara Day celebrations",
+    "lang_jw": "Daftar kegiatan utawa perayaan Hari Nusantara",
+    "lang_my": "Senarai aktiviti atau perayaan Hari Nusantara",
+    "lang_bj": "Daftar kegiatan atau perayaan Hari Nusantara",
+    "lang_st": "Daftar kegiatan atau perayaan Hari Nusantara"
+	},
+	{
+    "id" : "ag4",
+    "lang_id": "Muat lebih banyak",
+    "lang_en": "Load more",
+    "lang_jw": "Muat luwih akeh",
+    "lang_my": "Muat lebih banyak",
+    "lang_bj": "Muat lebih banyak",
+    "lang_st": "Muat lebih banyak"
 	},
   {
     "id" : "ts1",
     "lang_id": "Testimoni",
     "lang_en": "Testimonials",
-		"lang_jw": "",
-		"lang_my": "",
-		"lang_bj": "",
-		"lang_st": ""
+		"lang_jw": "Testimoni",
+		"lang_my": "Testimoni",
+		"lang_bj": "Testimoni",
+		"lang_st": "Testimoni"
 	},
   {
     "id" : "ts2",
     "lang_id": "Kata Mereka",
-    "lang_en": "Their Words",
-		"lang_jw": "",
-		"lang_my": "",
-		"lang_bj": "",
-		"lang_st": ""
+    "lang_en": "What they say",
+		"lang_jw": "Tembung piyambakipun sedaya",
+		"lang_my": "Mereka berkata",
+		"lang_bj": "Kata Mereka",
+		"lang_st": "Kata Mereka"
 	},
   {
     "id" : "ts3",
     "lang_id": "Temukan inspirasi dan rekomendasi dari sesama pengguna yang telah mencoba tur virtual dan ensiklopedia budaya",
-    "lang_en": "Find inspiration and recommendations from fellow users who have tried our virtual tour and cultural encyclopedia.",
-		"lang_jw": "",
-		"lang_my": "",
-		"lang_bj": "",
-		"lang_st": ""
+    "lang_en": "Find inspiration and recommendations from fellow users who have tried the virtual tour and cultural encyclopedia.",
+		"lang_jw": "Panggihaken inspirasi lan rekomendasi saking sesami pangangge ingkang sampun nyobi   tur virtual lan ensiklopedia budaya",
+		"lang_my": "Dapatkan inspirasi dan cadangan daripada rakan pengguna yang telah mencuba lawatan maya dan ensiklopedia budaya",
+		"lang_bj": "Temukan inspirasi dan rekomendasi dari sesama pengguna nang sudah mencoba tur virtual dan ensiklopedia budaya",
+		"lang_st": "Temukan inspirasi dan rekomendasi dari sesama pengguna nang sudah mencoba tur virtual dan ensiklopedia budaya"
 	},
   {
     "id" : "ts4",
     "lang_id": "KIRIM ULASAN",
     "lang_en": "SEND REVIEWS",
-		"lang_jw": "",
-		"lang_my": "",
-		"lang_bj": "",
-		"lang_st": ""
+		"lang_jw": "kintun ulasan",
+		"lang_my": "HANTAR ULASAN",
+		"lang_bj": "KIRIM ULASAN",
+		"lang_st": "KIRIM ULASAN"
 	},
   {
     "id": "ts5",
     "lang_id": "Kirimkan ulasan anda",
     "lang_en": "Submit your review",
-		"lang_jw": "",
-		"lang_my": "",
-		"lang_bj": "",
-		"lang_st": ""
+    "lang_jw": "Kirim ulasan panjenengan",
+    "lang_my": "Hantar ulasan anda",
+    "lang_bj": "Kirim ulasan pian",
+    "lang_st": "Kirimkan ulasan anda"
 	},
-  {
+	{
     "id": "ts6",
     "lang_id": "Bagikan pengalaman anda menggunakan website ini!",
     "lang_en": "Share your experience using this website!",
-		"lang_jw": "",
-		"lang_my": "",
-		"lang_bj": "",
-		"lang_st": ""
+    "lang_jw": "Bagikna pengalaman panjenengan nganggo website iki!",
+    "lang_my": "Kongsi pengalaman anda menggunakan laman web ini!",
+    "lang_bj": "Bagikan pengalaman pian memakai situs ini!",
+    "lang_st": "Bagikan pengalaman anda menggunakan website ini!"
 	},
-  {
+	{
     "id": "ts7",
     "lang_id": "Nama anda",
     "lang_en": "Your name",
-		"lang_jw": "",
-		"lang_my": "",
-		"lang_bj": "",
-		"lang_st": ""
+    "lang_jw": "Jeneng panjenengan",
+    "lang_my": "Nama anda",
+    "lang_bj": "Nama anda",
+    "lang_st": "Nama anda"
 	},
-  {
+	{
     "id": "ts8",
     "lang_id": "Siapakah anda",
     "lang_en": "Who are you",
-		"lang_jw": "",
-		"lang_my": "",
-		"lang_bj": "",
-		"lang_st": ""
+    "lang_jw": "Sinten panjenengan",
+    "lang_my": "Siapa anda",
+    "lang_bj": "Siapa anda",
+    "lang_st": "Siapa anda"
 	},
-  {
+	{
     "id": "ts9",
     "lang_id": "Ulasan anda",
     "lang_en": "Your review",
-		"lang_jw": "",
-		"lang_my": "",
-		"lang_bj": "",
-		"lang_st": ""
+    "lang_jw": "Ulasan panjenengan",
+    "lang_my": "Ulasan anda",
+    "lang_bj": "Ulasan pian",
+    "lang_st": "Ulasan anda"
 	},
-  {
+	{
     "id": "ts10",
     "lang_id": "Kirim ulasan",
     "lang_en": "Submit review",
-		"lang_jw": "",
-		"lang_my": "",
-		"lang_bj": "",
-		"lang_st": ""
+    "lang_jw": "Kirim ulasan panjenengan",
+    "lang_my": "Hantar ulasan",
+    "lang_bj": "Kirim ulasan",
+    "lang_st": "Kirim ulasan"
 	},
   {
     "id" : "ft1",
     "lang_id": "Platform interaktif untuk menjelajahi keindahan alam, budaya, dan adat Nusantara melalui peta interaktif, ensiklopedia budaya, serta tur virtual.",
     "lang_en": "An interactive platform to explore the natural beauty, culture, and customs of the Nusantara through interactive maps, cultural encyclopedias, and virtual tours.",
-		"lang_jw": "",
-		"lang_my": "",
-		"lang_bj": "",
-		"lang_st": ""
+		"lang_jw": "Platform interaktif kangge menjelajahi keindahan alam, budaya, lan adat nusantara nglangkungi peta interaktif, ensiklopedia budaya, saha  tur virtual.",
+		"lang_my": "Platform interaktif untuk meneroka keindahan alam semula jadi, budaya dan adat resam Nusantara melalui peta interaktif, ensiklopedia budaya dan lawatan maya.",
+		"lang_bj": "Platform interaktif untuk menjelajahi keindahan alam, budaya, dan adat Nusantara liwat peta interaktif, ensiklopedia budaya, serta tur virtual.",
+		"lang_st": "Platform interaktif untuk menjelajahi keindahan alam, budaya, dan adat Nusantara liwat peta interaktif, ensiklopedia budaya, serta tur virtual."
 	},
   {
     "id" : "ft2",
     "lang_id": "FITUR",
     "lang_en": "FEATURES",
-		"lang_jw": "",
-		"lang_my": "",
-		"lang_bj": "",
-		"lang_st": ""
+		"lang_jw": "FITUR",
+		"lang_my": "FITUR",
+		"lang_bj": "FITUR",
+		"lang_st": "FITUR"
 	},
   {
     "id" : "ft3",
     "lang_id": "Beranda",
     "lang_en": "Home",
-		"lang_jw": "",
-		"lang_my": "",
-		"lang_bj": "",
-		"lang_st": ""
+		"lang_jw": "Beranda",
+		"lang_my": "Rumah",
+		"lang_bj": "Beranda",
+		"lang_st": "Beranda"
 	},
   {
     "id" : "ft4",
     "lang_id": "Peta Interaktif",
     "lang_en": "Interactive Map",
-		"lang_jw": "",
-		"lang_my": "",
-		"lang_bj": "",
-		"lang_st": ""
+		"lang_jw": "Peta Interaktif",
+		"lang_my": "Peta Interaktif",
+		"lang_bj": "Peta Interaktif",
+		"lang_st": "Peta Interaktif"
 	},
   {
     "id" : "ft5",
-    "lang_id": "Ensiklopedia",
-    "lang_en": "Encyclopedia",
-		"lang_jw": "",
-		"lang_my": "",
-		"lang_bj": "",
-		"lang_st": ""
+    "lang_id": "Budaya & Tradisi",
+    "lang_en": "Culture & Tradition",
+		"lang_jw": "Budaya & Tradisi",
+		"lang_my": "Budaya & Tradisi",
+		"lang_bj": "Budaya & Tradisi",
+		"lang_st": "Budaya & Tradisi"
 	},
   {
     "id" : "ft6",
-    "lang_id": "Tur Virtual",
-    "lang_en": "Virtual Tour",
-		"lang_jw": "",
-		"lang_my": "",
-		"lang_bj": "",
-		"lang_st": ""
+    "lang_id": "Galeri",
+    "lang_en": "Gallery",
+		"lang_jw": "Galeri",
+		"lang_my": "Galeri",
+		"lang_bj": "Galeri",
+		"lang_st": "Galeri"
 	},
   {
-    "id" : "ft7",
-    "lang_id": "KONTAK",
-    "lang_en": "CONTACT",
-		"lang_jw": "",
-		"lang_my": "",
-		"lang_bj": "",
-		"lang_st": ""
+    "id": "ft7",
+    "lang_id": "Situs Kebudayaan",
+    "lang_en": "Cultural Site",
+    "lang_jw": "Situs Kabudayan",
+    "lang_my": "Laman Kebudayaan",
+    "lang_bj": "Situs Kebudayaan",
+    "lang_st": "Situs Kebudayaan"
+	},
+	{
+    "id": "ft8",
+    "lang_id": "Perayaan Hari Nusantara",
+    "lang_en": "Nusantara Day Celebration",
+    "lang_jw": "Perayaan Dina Nusantara",
+    "lang_my": "Perayaan Hari Nusantara",
+    "lang_bj": "Perayaan Hari Nusantara",
+    "lang_st": "Perayaan Hari Nusantara"
 	}
 ]

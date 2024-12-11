@@ -29,7 +29,7 @@
         </div>
 
         <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mx-md-0 mb-md-0 mb-4">
-          <h6 class="text-uppercase fw-bold mb-4" lang-id="ft7">Perayaan Hari Nusantara</h6>
+          <h6 class="text-uppercase fw-bold mb-4" lang-id="ft8">Perayaan Hari Nusantara</h6>
           <p>
             <i class="fa fa-facebook me-3"></i> 
             <a href="https://www.facebook.com/profile.php?id=100064878120747" target="_blank">GPPMP</a>

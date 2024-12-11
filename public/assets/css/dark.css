@@ -124,7 +124,8 @@
 .dark #nusantara h5{
   color: white !important;
 }
-.dark #nusantara p{
+.dark #nusantara p,
+.dark #nusantara span{
   color: #778DA9 !important;
 }
 .dark #nusantara img{
