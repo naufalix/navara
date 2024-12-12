@@ -118,6 +118,13 @@
     },
   });
 
+  var swiper4 = new Swiper(".mySwiper4", {
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+  });
+
   // Initialize Swiper for testimonial
   var swiper3 = new Swiper(".mySwiper3", {
     slidesPerView: 1,
