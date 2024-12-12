@@ -12,7 +12,7 @@
 
 
 /* Navbar */
-.bg-nav {
+.dark .bg-nav {
   /* background-color: white; */
   background-color: linear-gradient(to bottom left, #273748, #021526) !important;
 }
