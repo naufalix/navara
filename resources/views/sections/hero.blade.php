@@ -11,7 +11,7 @@
       </div>
       <div class="col-12 col-md-6 d-flex">
         <div class="mx-auto">
-          <img class="ship" src="/assets/img/phinisi.png" alt="" style="max-width: 100%;max-height: 500px;">
+          <img class="ship" src="/assets/img/phinisi.gif" alt="" style="max-width: 100%;max-height: 500px;">
         </div>
       </div>
     </div>
