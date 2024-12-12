@@ -67,7 +67,7 @@ section{
 
 /* Navbar */
 .bg-nav {
-  background-color: white;
+  background: white;
   transition: 0.2s ease-in;
 }
 .bg-nav.scrolled {

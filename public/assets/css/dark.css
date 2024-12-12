@@ -14,10 +14,10 @@
 /* Navbar */
 .dark .bg-nav {
   /* background-color: white; */
-  background-color: linear-gradient(to bottom left, #273748, #021526) !important;
+  background: linear-gradient(to bottom left, #273748, #021526) !important;
 }
 .dark .bg-nav.scrolled {
-  background-color: #0D1B2A !important;
+  background: #0D1B2A !important;
   box-shadow: var(--mdb-navbar-box-shadow);
 }
 .dark #navbarNav .select2 .select2-selection{
