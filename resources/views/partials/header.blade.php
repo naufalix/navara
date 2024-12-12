@@ -22,7 +22,7 @@
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdownNusantara">
               <li><a class="dropdown-item" href="sejarah.html">Sejarah</a></li>
-              <li><a class="dropdown-item" lang-id="nv2" href="index.html#maps"></a></li>
+              <li><a class="dropdown-item" lang-id="nv2" href="index.html#maps">Peta Interaktif</a></li>
             </ul>
           </li>
 
