@@ -41,7 +41,7 @@
   </section>
 
   <div id="credit" class="text-center p-4">
-    © 2024 <b>Team Takoyaki Geprek</b>. <a class="text-primary fw-bold"  target="_blank" href="https://docs.google.com/spreadsheets/d/16Y_LT2u4bhOuAknDTU6YXTWIsjewWeSeaU7QkBgMIAQ/">Credit</a>
+    © 2024 <b>Team AfiHaNa</b>. <a class="text-primary fw-bold"  target="_blank" href="https://docs.google.com/spreadsheets/d/16Y_LT2u4bhOuAknDTU6YXTWIsjewWeSeaU7QkBgMIAQ/">Credit</a>
   </div>
 
 </footer>
