@@ -32,7 +32,7 @@
 
   <div class="container aos-init aos-animate mb-5" data-aos="fade-up">
     <div class="section-title aos-init aos-animate pb-2" data-aos="zoom-out">
-      <h2 class="h-bg" lang-id="en2">Riwayat Hari Nusantara</h2>
+      <h2 class="h-bg">Riwayat Hari Nusantara</h2>
     </div>
   </div>
 

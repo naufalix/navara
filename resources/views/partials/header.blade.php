@@ -14,12 +14,33 @@
         <ul class="navbar-nav ms-auto">
           <!-- Dropdown -->
           <li><a class="nav-link" lang-id="nv1" href="index.html#hero">Beranda</a></li>
-          <li><a class="nav-link" lang-id="nv2" href="index.html#maps">Peta interaktif</a></li>
-          <li><a class="nav-link" lang-id="nv3" href="index.html#city">Budaya & Tradisi</a></li>
-          <li><a class="nav-link" lang-id="nv4" href="index.html#gallery">Galeri</a></li>
+          
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="" id="navbarDropdownNusantara" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              Nusantara
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownNusantara">
+              <li><a class="dropdown-item" href="sejarah.html">Sejarah</a></li>
+              <li><a class="dropdown-item" lang-id="nv2" href="index.html#maps"></a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="" id="navbarDropdownBudaya" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              Budaya dan Wisata
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownBudaya">
+              <li><a class="dropdown-item" lang-id="nv3" href="index.html#city">Ensiklopedia Budaya</a></li>
+              <li><a class="dropdown-item" lang-id="ag2" href="index.html#agenda">Agenda Budaya</a></li>
+              <li><a class="dropdown-item" lang-id="nv4" href="index.html#gallery">Galeri</a></li>
+            </ul>
+          </li>
+          
           <li><a class="nav-link" lang-id="nv5" href="index.html#testimonial">Ulasan</a></li>
 
-          <li class="nav-item dropdown ms-auto">
+          <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" lang-id="nv6" href="" id="navbarDropdownMenuLink" role="button"
               data-bs-toggle="dropdown" aria-expanded="false">
               Pilih bahasa
