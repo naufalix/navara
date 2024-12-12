@@ -7,16 +7,16 @@
       <p class="col-md-4 mx-auto">
         <i lang-id="en3">Temukan budaya-budaya dari seluruh penjuru Indonesia!</i>
       </p>
-      <div class="d-flex justify-content-center">
-        
+
+      {{-- <div class="d-flex justify-content-center">  
         <select name="" id="selectcity2" class="form-control form-select rounded-6">
           <option selected disabled value="" lang-id="en4">Cari daerah atau kota</option>
           @foreach ($cities as $c)
             <option value="{{$loop->iteration}}">{{ $c->name }}</option>
           @endforeach
         </select>
+      </div> --}}
 
-      </div>
     </div>
   </div>
   
