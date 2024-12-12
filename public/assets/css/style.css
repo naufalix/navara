@@ -574,9 +574,9 @@ section{
   }
 }
 
-/* *{
+*{
 	cursor: url(/assets/img/cursor.png),auto !important;
-} */
+}
 /* Scrollbar */
 ::-webkit-scrollbar
 {width: 8px;height: 8px;}
