@@ -84,7 +84,7 @@
             <div class="modal-body py-0">
               <div class="row">
                 <div class="col-12 col-md-5 d-flex">
-                  <img src="/assets/img/encyclopedia/{{ $e->image }}" class="m-auto rounded-3" alt="" style="max-width: 300px">
+                  <img src="assets/img/encyclopedia/{{ $e->image }}" class="m-auto rounded-3" alt="" style="max-width: 300px">
                 </div>
                 <div class="col-12 col-md-7 text-center text-md-start">
                   <h3 class="my-4">{{ $e->title }}</h3>

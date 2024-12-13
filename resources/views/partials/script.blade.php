@@ -58,7 +58,7 @@
   // Function change language
   function language(lang) {
     // Ambil data JSON dari file /json/languages.json
-    $.getJSON("/json/languages.json", function(json) {
+    $.getJSON("json/languages.json", function(json) {
       // Iterasi setiap item di dalam data JSON
       json.forEach(l => {
       // Akses properti bahasa berdasarkan nilai variabel lang

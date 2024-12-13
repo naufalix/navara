@@ -3,7 +3,7 @@
     <div class="container">
       {{-- <a class="navbar-brand" href="#">Arunika Nusantara</a> --}}
       <a class="navbar-brand" href="#">
-        <img src="/assets/img/logo.png" alt="Arunika Nusantara Logo" style="height: 40px;">
+        <img src="assets/img/logo.png" alt="Arunika Nusantara Logo" style="height: 40px;">
       </a>
     
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
