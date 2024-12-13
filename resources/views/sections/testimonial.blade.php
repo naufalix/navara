@@ -26,7 +26,7 @@
           
               <div class="d-flex mb-2">
                 <div class="me-3 my-auto">
-                  <img src="/assets/img/testimonials/{{ $t->image }}" class="my-auto rounded-circle" alt="" style="width: 50px">
+                  <img src="assets/img/testimonials/{{ $t->image }}" class="my-auto rounded-circle" alt="" style="width: 50px">
                 </div>
                 <div class="text-start my-auto"> 
                   <h6 class="mb-0 fw-bold">{{ $t->name }}</h6>

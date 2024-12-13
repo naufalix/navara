@@ -50,7 +50,7 @@
               </div>
             </div>
             <div class="col-12 col-md-6 d-flex mb-4">
-              <img src="/assets/img/agenda/{{$a->image}}" class="m-auto rounded-3" alt="">
+              <img src="assets/img/agenda/{{$a->image}}" class="m-auto rounded-3" alt="">
             </div>
       
           </div>

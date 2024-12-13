@@ -44,7 +44,7 @@ section{
   transform: translate(-50%, -50%);
   width: 122px;
   height: 66px;
-  background: url(/assets/img/section-title-bg.png) no-repeat;
+  background: url(assets/img/section-title-bg.png) no-repeat;
   z-index: -1;
 }
 .section-title h5{
@@ -235,27 +235,27 @@ section{
   }
 }
 #maps .cloud1{
-  background-image: url('/assets/img/goldfish1.png'); 
+  background-image: url('assets/img/goldfish1.png'); 
   background-size: 70px;
   animation: cloud1 40s linear infinite;
 }
 #maps .cloud1x{
-  background-image: url('/assets/img/goldfish2.png'); 
+  background-image: url('assets/img/goldfish2.png'); 
   background-size: 60px;
   animation: cloud1x 50s linear infinite;
 }
 #maps .cloud2{
-  background-image: url('/assets/img/goldfish1.png'); 
+  background-image: url('assets/img/goldfish1.png'); 
   background-size: 70px;
   animation: cloud2 45s linear infinite;
 }
 #maps .cloud2x{
-  background-image: url('/assets/img/goldfish2.png'); 
+  background-image: url('assets/img/goldfish2.png'); 
   background-size: 70px;
   animation: cloud2x 60s linear infinite;
 }
 #maps .cloud3{
-  background-image: url('/assets/img/goldfish1.png'); 
+  background-image: url('assets/img/goldfish1.png'); 
   background-size: 65px;
   animation: cloud3 55s linear infinite;
 }
@@ -578,7 +578,7 @@ section{
 }
 
 *{
-	cursor: url(/assets/img/cursor.png),auto !important;
+	cursor: url(assets/img/cursor.png),auto !important;
 }
 /* Scrollbar */
 ::-webkit-scrollbar
