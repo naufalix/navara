@@ -11,29 +11,12 @@
           <p class="h3">Navara Nusantara</p>
           <p lang-id="ft1">Platform interaktif untuk menjelajahi keindahan alam, budaya, dan adat Nusantara melalui peta interaktif, ensiklopedia budaya, serta tur virtual.</p>
         </div>
-        
-        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto me-md-0 mb-4">
-          <h6 class="text-uppercase fw-bold mb-4" lang-id="ft2">MENU</h6>
-          <p><a href="index.html#hero" class="text-reset" lang-id="ft3">Beranda</a></p>
-          <p><a href="index.html#maps" class="text-reset" lang-id="ft4">Peta Interaktif</a></p>
-          <p><a href="index.html#city" class="text-reset" lang-id="ft5">Budaya & Tradisi</a></p>
-          <p><a href="index.html#gallery" class="text-reset" lang-id="ft6">Galeri</a></p>
-        </div>
-        
-        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mx-md-0 mb-md-0 mb-4">
-          <h6 class="text-uppercase fw-bold mb-4" lang-id="ft7">Situs Kebudayaan</h6>
-          <p><a href="https://borobudur.injourneydestination.id/destination-info/" class="text-reset" lang-id="ft" target="_blank">Candi Borobudur</a></p>
-          <p><a href="https://prambanan.injourneydestination.id/destination-info/" class="text-reset" lang-id="ft" target="_blank">Candi Prambanan</a></p>
-          <p><a href="https://www.gwkbali.com/" class="text-reset" lang-id="ft" target="_blank">Garuda Wisnu Kencana</a></p>
-          <p><a href="https://indonesiakaya.com/pustaka-indonesia/pura-ulun-danu-beratan-situs-religi-yang-mempesona-di-tengah-dataran-tinggi-bedugul/" class="text-reset" lang-id="ft" target="_blank">Pura Ulun Danu Bratan</a></p>
-        </div>
 
         <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mx-md-0 mb-md-0 mb-4">
-          <h6 class="text-uppercase fw-bold mb-4" lang-id="ft8">Perayaan Hari Nusantara</h6>
-          <p>
-            <i class="fa fa-facebook me-3"></i> 
-            <a href="https://www.facebook.com/profile.php?id=100064878120747" target="_blank">GPPMP</a>
-          </p>
+          <h6 class="text-uppercase fw-bold mb-4" lang-id="ft7">KONTAK</h6>
+          <p><i class="fa fa-instagram me-3"></i>Navara Nusantara</p>
+          <p><i class="fa fa-envelope me-3"></i>navara@example.com</p>
+          <p><i class="fa fa-phone me-3"></i>+62 852 3400 6051</p>
         </div>
 
       </div>

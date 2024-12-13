@@ -547,7 +547,7 @@ section{
   background-color: #E2EAF7;
 }
 #agenda img {
-  width: 80%;
+  width: -webkit-fill-available;
   object-fit: cover;
   aspect-ratio: 16/9;
 }
@@ -556,6 +556,9 @@ section{
 }
 #agenda .swiper .icon{
   text-align: center;
+}
+#agenda .swiper .detail{
+  text-align: left;
 }
 @media (max-width: 992px) {
   #agenda img {
