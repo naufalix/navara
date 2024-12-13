@@ -1,4 +1,4 @@
-[
+const languages = [
   {
     "id" : "nv1",
     "lang_id": "Beranda",

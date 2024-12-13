@@ -10,6 +10,7 @@
 
 <!-- Main JS File -->
 <script src="assets/js/script.js"></script>
+<script src="assets/js/languages.js"></script>
 
 <script>
   
@@ -57,16 +58,13 @@
 
   // Function change language
   function language(lang) {
-    // Ambil data JSON dari file /json/languages.json
-    $.getJSON("json/languages.json", function(json) {
-      // Iterasi setiap item di dalam data JSON
-      json.forEach(l => {
+    // Iterasi setiap item di dalam array languages
+    languages.forEach(l => {
       // Akses properti bahasa berdasarkan nilai variabel lang
-        const text = l[`lang_${lang}`];
-        if (text) {
-          $("[lang-id=" + l.id + "]").text(text);
-        }
-      });
+      const text = l[`lang_${lang}`];
+      if (text) {
+        $("[lang-id=" + l.id + "]").text(text);
+      }
     });
   }
 
