@@ -52,3 +52,14 @@ Route::group(['prefix'=> 'api'], function(){
   Route::get('testimonial/{testimonial:id}', [APIController::class, 'testimonial']);
   Route::get('virtual/{virtual:id}', [APIController::class, 'virtual']);
 });
+
+Route::group(['middleware' => 'cors'], function () {
+  Route::get('/assets/img/virtual/{file}', function ($file) {
+      $filePath = public_path('assets/img/virtual/' . $file);
+      if (file_exists($filePath)) {
+          return response()->file($filePath);
+      }
+      return response()->json(['message' => 'File not found'], 404);
+  });
+});
+
