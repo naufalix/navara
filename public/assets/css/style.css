@@ -547,7 +547,7 @@ section{
   background-color: #E2EAF7;
 }
 #agenda img {
-  width: -webkit-fill-available;
+  width: 100%;
   object-fit: cover;
   aspect-ratio: 16/9;
 }

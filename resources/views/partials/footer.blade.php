@@ -1,15 +1,21 @@
 <!-- Footer -->
 <footer class="text-center text-lg-start">
   
-  <section class="" id="footer">
+  <section class="py-0" id="footer">
     <div class="container text-center text-md-start mt-5">
-      <div class="row mt-3">
+      <div class="row mt-3 justify-content-center">
         
-        <div class="col-md-4 mx-auto ms-md-0 mb-4">
+        <div class="col-md-4 ms-md-0 mb-4">
           <!-- Content -->
-          <img class="mb-2" src="assets/img/logo.png" alt="" width="100">
-          <p class="h3">Navara Nusantara</p>
-          <p lang-id="ft1">Platform interaktif untuk menjelajahi keindahan alam, budaya, dan adat Nusantara melalui peta interaktif, ensiklopedia budaya, serta tur virtual.</p>
+          <div class="row col-12 mx-auto">
+            <div class="mb-2 col-12 me-0 me-md-2">
+              <img src="assets/img/logo.png" alt="" width="100" style="height: fit-content;">
+            </div>
+            <div class="col-12">
+              <p class="h3">Navara Nusantara</p>
+              <p lang-id="ft1">Platform interaktif untuk menjelajahi keindahan alam, budaya, dan adat Nusantara melalui peta interaktif, ensiklopedia budaya, serta tur virtual.</p>
+            </div>
+          </div>
         </div>
 
         <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mx-md-0 mb-md-0 mb-4">
