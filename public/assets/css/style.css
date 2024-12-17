@@ -22,6 +22,22 @@
   padding-bottom: 120px;
 }
 
+/* Font */
+@font-face {
+  font-family: 'Jawa';
+  src: url('assets/fonts/Jawa.woff2') format('woff2'),
+      url('assets/fonts/Jawa.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+.jawa h1,
+.jawa h2,
+.jawa footer .h3{
+  font-family: 'Jawa' !important;
+}
+
+
 /* Section */
 section{ 
   padding: 60px 0;
@@ -103,7 +119,7 @@ section{
   background-color: #FFFFFF;
 }
 #hero h1{
-  font-size: 60px;
+  font-size: 56px;
 }
 @media (max-width: 992px) {
   #hero h1{

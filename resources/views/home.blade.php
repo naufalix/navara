@@ -105,10 +105,10 @@
     var top = $("#maps").position().top;
     $('html').scrollTop(top);
   });
-  $('#selectcity2').select2();
-  $('#selectcity2').on('change', function() {
-    swiper.slideTo($(this).val() - 1);
-  });
+  // $('#selectcity2').select2();
+  // $('#selectcity2').on('change', function() {
+  //   swiper.slideTo($(this).val() - 1);
+  // });
 
   // Initialize Swiper for encyclopedia
   var swiper = new Swiper(".mySwiper", {

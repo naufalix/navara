@@ -26,6 +26,10 @@
       @foreach ($cities as $c)
       <div class="swiper-slide">
         <div class="container px-md-5">
+
+          <div class="text-center">
+            <button class="btn btn-outline-info" style="background-color: transparent">{{$c->name}}</button>
+          </div>
           
           <div class="row px-5 justify-content-center pt-2">
             @foreach ($c->encyclopedia->sortBy('title') as $e)

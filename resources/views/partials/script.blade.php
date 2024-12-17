@@ -56,6 +56,29 @@
     }
   }
 
+  // Select font
+  $('#selectfont').on('change', function() {
+    font = $(this).val();
+    if (font === 'jawa') {
+      $('body').addClass('jawa');
+    } else {
+      $('body').removeClass('jawa');
+    }
+    localStorage.setItem('font', font);
+  });
+
+  // Function change font from session if any
+  function checkThemeSession() {
+    var savedFont = localStorage.getItem('font');
+    if (savedFont === 'jawa') {
+      $('body').addClass('jawa');
+      $('#selectfont').val('jawa');
+    } else {
+      $('body').removeClass('jawa');
+      $('#selectfont').val('poppins');
+    }
+  }
+
   // Function change language
   function language(lang) {
     // Iterasi setiap item di dalam array languages
