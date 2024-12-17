@@ -5,13 +5,13 @@
     <div class="container text-center text-md-start mt-5">
       <div class="row mt-3 justify-content-center">
         
-        <div class="col-md-4 ms-md-0 mb-4">
+        <div class="col-md-5 ms-md-0 mb-4">
           <!-- Content -->
           <div class="row col-12 mx-auto">
-            <div class="mb-2 col-12 me-0 me-md-2">
+            <div class="mb-2 col-md-3">
               <img src="assets/img/logo.png" alt="" width="100" style="height: fit-content;">
             </div>
-            <div class="col-12">
+            <div class="col-md-9">
               <p class="h3">Navara Nusantara</p>
               <p lang-id="ft1">Platform interaktif untuk menjelajahi keindahan alam, budaya, dan adat Nusantara melalui peta interaktif, ensiklopedia budaya, serta tur virtual.</p>
             </div>
