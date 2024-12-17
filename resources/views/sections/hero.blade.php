@@ -8,11 +8,6 @@
           Dari luasnya samudera yang menyatukan pulau-pulau hingga kekayaan budaya yang hidup di setiap sudut Nusantara, mari kita rayakan keberagaman yang menjadi kekuatan bangsa. Selami keindahan alam, pelajari tradisi, dan bergabung dalam semangat persatuan Nusantara!
         </p>
         <a class="btn btn-info shadow-0 rounded-4" href="#maps" lang-id="he2">Jelajahi Nusantara <i class="fa fa-sign-out ms-2"></i></a>
-        <select id="selectfont" class="btn btn-outline-info rounded-6">
-          <option selected disabled value="">Pilih Font</option>
-          <option value="jawa">Jawa</option>
-          <option value="poppins">Poppins</option>
-        </select>
       </div>
       <div class="col-12 col-md-6 d-flex">
         <div class="mx-auto">

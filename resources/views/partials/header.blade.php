@@ -46,12 +46,23 @@
               Pilih bahasa
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <li><a class="dropdown-item" onclick="language('id')">Indonesia</a></li>
-              <li><a class="dropdown-item" onclick="language('en')">English</a></li>
-              <li><a class="dropdown-item" onclick="language('jw')">Jawa</a></li>
-              <li><a class="dropdown-item" onclick="language('my')">Melayu</a></li>
-              <li><a class="dropdown-item" onclick="language('bj')">Banjar</a></li>
-              <li><a class="dropdown-item" onclick="language('st')">Sentani</a></li>
+              <li><a class="dropdown-item" onclick="language('id'),selectfont('poppins')">Indonesia</a></li>
+              <li><a class="dropdown-item" onclick="language('en'),selectfont('poppins')">English</a></li>
+              <li><a class="dropdown-item" onclick="language('jw'),selectfont('jawa')">Jawa</a></li>
+              <li><a class="dropdown-item" onclick="language('my'),selectfont('poppins')">Melayu</a></li>
+              <li><a class="dropdown-item" onclick="language('bj'),selectfont('poppins')">Banjar</a></li>
+              <li><a class="dropdown-item" onclick="language('st'),selectfont('poppins')">Sentani</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" lang-id="nv7" href="" id="fontDropdown" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              Pilih font
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="fontDropdown">
+              <li><a class="dropdown-item" onclick="selectfont('jawa')">Jawa</a></li>
+              <li><a class="dropdown-item" onclick="selectfont('poppins')">Poppins</a></li>
             </ul>
           </li>
 

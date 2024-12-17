@@ -57,15 +57,23 @@
   }
 
   // Select font
-  $('#selectfont').on('change', function() {
-    font = $(this).val();
+  function selectfont(font) {
     if (font === 'jawa') {
       $('body').addClass('jawa');
     } else {
       $('body').removeClass('jawa');
     }
     localStorage.setItem('font', font);
-  });
+  }
+  // $('#selectfont').on('change', function() {
+  //   font = $(this).val();
+  //   if (font === 'jawa') {
+  //     $('body').addClass('jawa');
+  //   } else {
+  //     $('body').removeClass('jawa');
+  //   }
+  //   localStorage.setItem('font', font);
+  // });
 
   // Function change font from session if any
   function checkThemeSession() {
