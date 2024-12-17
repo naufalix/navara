@@ -73,9 +73,6 @@
     if (savedFont === 'jawa') {
       $('body').addClass('jawa');
       $('#selectfont').val('jawa');
-    } else {
-      $('body').removeClass('jawa');
-      $('#selectfont').val('poppins');
     }
   }
 
