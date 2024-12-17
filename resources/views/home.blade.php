@@ -105,10 +105,7 @@
     var top = $("#maps").position().top;
     $('html').scrollTop(top);
   });
-  // $('#selectcity2').select2();
-  // $('#selectcity2').on('change', function() {
-  //   swiper.slideTo($(this).val() - 1);
-  // });
+
 
   // Initialize Swiper for encyclopedia
   var swiper = new Swiper(".mySwiper", {
@@ -160,11 +157,6 @@
       'lt1024': '_b'
     }
   })
-  // $('#basicExample').on('click', 'div', function (event) {
-  //   const imageUrl = $(this).data('image');
-  //   $('#modalImage').attr('src', imageUrl);
-  //   $('#imageModal').modal('show');
-  // });
 
   // Function set virtual tour
   function setvr(virtual,maps){

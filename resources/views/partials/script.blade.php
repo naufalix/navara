@@ -9,7 +9,6 @@
 <script src="assets/vendor/pannellum/pannellum.js"></script>
 
 <!-- Main JS File -->
-<script src="assets/js/script.js"></script>
 <script src="assets/js/languages.js"></script>
 
 <script>
@@ -66,15 +65,6 @@
     }
     localStorage.setItem('font', font);
   }
-  // $('#selectfont').on('change', function() {
-  //   font = $(this).val();
-  //   if (font === 'jawa') {
-  //     $('body').addClass('jawa');
-  //   } else {
-  //     $('body').removeClass('jawa');
-  //   }
-  //   localStorage.setItem('font', font);
-  // });
 
   // Function change font from session if any
   function checkFontSession() {
@@ -96,46 +86,6 @@
       }
     });
   }
-
-  // var swiper2 = new Swiper(".mySwiper2", {
-  //   effect: "coverflow",
-  //   grabCursor: true,
-  //   centeredSlides: true,
-  //   slidesPerView: "auto",
-  //   coverflowEffect: {
-  //     rotate: 0,
-  //     stretch: 0,
-  //     depth: 100,
-  //     modifier: 2,
-  //     slideShadows: true
-  //   },
-  //   keyboard: {
-  //     enabled: true
-  //   },
-  //   mousewheel: {
-  //     thresholdDelta: 70
-  //   },
-  //   spaceBetween: 60,
-  //   loop: true,
-  //   pagination: {
-  //     el: ".swiper-pagination",
-  //     clickable: true
-  //   }
-  // });
-
-  // var swiper4 = new Swiper(".mySwiper4", {
-  //   slidesPerView: 1,
-  //   spaceBetween: 30,
-  //   speed: 1000,
-  //   autoplay: {
-  //     delay: 4000,
-  //     disableOnInteraction: false,
-  //   },
-  //   navigation: {
-  //     nextEl: ".quotes-next",
-  //     prevEl: ".quotes-prev",
-  //   },
-  // });
 
   // Function set youtube video
   function setyt(url){
