@@ -55,17 +55,6 @@
             </ul>
           </li>
 
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" lang-id="nv7" href="" id="fontDropdown" role="button"
-              data-bs-toggle="dropdown" aria-expanded="false">
-              Pilih font
-            </a>
-            <ul class="dropdown-menu" aria-labelledby="fontDropdown">
-              <li><a class="dropdown-item" onclick="selectfont('jawa')">Jawa</a></li>
-              <li><a class="dropdown-item" onclick="selectfont('poppins')">Poppins</a></li>
-            </ul>
-          </li>
-
           <li>
             <button class="nav-link" data-mdb-collapse-init data-mdb-ripple-init data-mdb-target="#nv-s" aria-expanded="false" aria-controls="nv-s"><i class="fa fa-search"></i></button>
           </li>
