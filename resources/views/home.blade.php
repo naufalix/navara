@@ -162,7 +162,7 @@
   function setvr(virtual,maps){
     pannellum.viewer('panorama', {
       "type": "equirectangular",
-      "panorama": "{{URL::to('/')}}/assets/img/virtual/"+virtual
+      "panorama": "assets/img/virtual/"+virtual
     });
     $('.gmaps').attr('href', maps);
   }
