@@ -16,6 +16,7 @@
   
   $(document).ready(function () {
     checkThemeSession();
+    checkFontSession();
   });
 
   // Navbar change background color when scrolled
@@ -76,7 +77,7 @@
   // });
 
   // Function change font from session if any
-  function checkThemeSession() {
+  function checkFontSession() {
     var savedFont = localStorage.getItem('font');
     if (savedFont === 'jawa') {
       $('body').addClass('jawa');

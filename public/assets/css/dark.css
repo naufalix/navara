@@ -191,6 +191,7 @@
 }
 
 /* Footer */
+.dark footer,
 .dark footer #footer{
   background-color: #1B263A !important;
 }

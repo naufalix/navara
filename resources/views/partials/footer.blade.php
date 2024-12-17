@@ -1,7 +1,7 @@
 <!-- Footer -->
 <footer class="text-center text-lg-start">
   
-  <section class="py-0" id="footer">
+  <section class="py-1" id="footer">
     <div class="container text-center text-md-start mt-5">
       <div class="row mt-3 justify-content-center">
         
