@@ -2,7 +2,7 @@
   
   <div class="container aos-init aos-animate" data-aos="fade-up">
     <div class="section-title aos-init aos-animate" data-aos="zoom-out">
-      <h5 class="text-primary" lang-id="ts1">Testimoni</h5>
+      <h5 class="text-info" lang-id="ts1">Testimoni</h5>
       <h2 class="h-bg" lang-id="ts2">Kata Mereka</h2>
       <p class="col-md-4 mx-auto" lang-id="ts3">Temukan inspirasi dan rekomendasi dari sesama pengguna yang telah mencoba tur virtual dan ensiklopedia budaya</p>
     </div>
